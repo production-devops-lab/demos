@@ -1,0 +1,11 @@
+- name: Restart and wait (AI version)
+  hosts: localhost
+  gather_facts: false
+  tasks:
+    - name: Show what ansible_play_batch really is
+      ansible.builtin.debug:
+        var: ansible_play_batch
+    - name: Wait for journald to restart
+      ansible.builtin.debug:
+        msg: waiting for the journald socket
+      when: "'restart systemd-journald' in ansible_play_batch"

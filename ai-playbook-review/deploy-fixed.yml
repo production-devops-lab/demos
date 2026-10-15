@@ -1,0 +1,15 @@
+- name: Deploy logrotate configs (fixed)
+  hosts: localhost
+  gather_facts: false
+  vars:
+    logrotate_configs:
+      - src: files/app.logrotate
+        dest: target/etc/logrotate.d/app
+  tasks:
+    - name: Deploy logrotate configs
+      ansible.builtin.copy:
+        src: "{{ item.src }}"
+        dest: "{{ item.dest }}"
+        mode: "0644"
+      loop: "{{ logrotate_configs }}"
+      when: item.src is file

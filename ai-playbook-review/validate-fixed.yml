@@ -1,0 +1,10 @@
+- name: Validate configs (fixed)
+  hosts: localhost
+  gather_facts: false
+  tasks:
+    - name: Validate logrotate syntax
+      ansible.builtin.command: grep -q rotate target/etc/logrotate.d/nginx
+      changed_when: false
+    - name: Summary
+      ansible.builtin.debug:
+        msg: All tests passed

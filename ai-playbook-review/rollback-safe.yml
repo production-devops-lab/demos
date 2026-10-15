@@ -1,0 +1,20 @@
+- name: Rollback logrotate configs (safe version)
+  hosts: localhost
+  gather_facts: false
+  tasks:
+    - name: Check the backup before touching anything
+      ansible.builtin.stat:
+        path: "{{ backup_dir }}/logrotate.d.backup"
+      register: backup
+    - name: Stop if the backup is missing
+      ansible.builtin.assert:
+        that: backup.stat.isdir | default(false)
+        fail_msg: "Backup not found - nothing was changed"
+    - name: Move current configs aside instead of deleting them
+      ansible.builtin.command: mv target/etc/logrotate.d target/etc/logrotate.d.pre-rollback
+      args:
+        removes: target/etc/logrotate.d
+    - name: Restore from the backup
+      ansible.builtin.command: cp -a {{ backup_dir }}/logrotate.d.backup target/etc/logrotate.d
+      args:
+        creates: target/etc/logrotate.d

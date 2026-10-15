@@ -1,0 +1,4 @@
+/var/log/app/*.log {
+    daily
+    rotate 7
+}
