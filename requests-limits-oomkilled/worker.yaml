@@ -1,0 +1,30 @@
+# Deployment from the video, with resources sized from measured usage.
+# Replace the image with your own. Measure first: kubectl top pod -l app=report-worker
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: report-worker
+spec:
+  replicas: 1
+  selector:
+    matchLabels: {app: report-worker}
+  template:
+    metadata:
+      labels: {app: report-worker}
+    spec:
+      containers:
+        - name: worker
+          image: registry.example.com/acme/report-worker:1.8
+          resources:
+            requests:
+              cpu: 250m        # normal CPU use: used by the scheduler
+              memory: 384Mi    # normal memory use on busy days
+            limits:
+              cpu: "1"         # batch job: a CPU cap is fine here
+              memory: 512Mi    # measured peak (~400Mi) + headroom
+# Before the fix: requests.memory 256Mi, limits.memory 256Mi -> OOMKilled, exit code 137.
+#
+# Useful commands:
+#   kubectl describe pod <pod> | grep -A3 'Last State'
+#   kubectl get pod <pod> -o jsonpath='{.status.qosClass}'
+#   kubectl exec deploy/<name> -- cat /sys/fs/cgroup/cpu.stat    # nr_throttled, throttled_usec (cgroup v2)

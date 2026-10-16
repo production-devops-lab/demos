@@ -14,9 +14,12 @@ Every folder matches one video. Everything runs in a throwaway directory or cont
 | [The find -o Bug Almost Everyone Writes (and the One-Character Fix)](https://youtu.be/CeFtExfmAZM) | [`find-or-precedence/`](find-or-precedence/) |
 | [journald vs logrotate: Who Rotates Which Logs on Linux?](https://youtu.be/8wSTzmsd_jA) | [`journald-vs-logrotate/`](journald-vs-logrotate/) |
 | [Stop Scrolling kubectl Output: custom-columns, jsonpath and --sort-by](https://youtu.be/lHxPHbiN8dc) | [`kubectl-output-anatomy/`](kubectl-output-anatomy/) |
+| [Liveness vs Readiness vs Startup Probes: Stop Killing Healthy Pods](https://youtu.be/IBvgdNBOyB8) | [`kubernetes-probes/`](kubernetes-probes/) |
 | [A Log Health Check Script Your Monitoring Can Trust (Exit Codes 0, 1, 2)](https://youtu.be/dDuTM5zzXaY) | [`log-health-check/`](log-health-check/) |
 | [Your Logs Vanish After Reboot? Make journald Persistent (the Right Way)](https://youtu.be/_TfFevUPuqE) | [`persistent-journald/`](persistent-journald/) |
 | [Anatomy of a Production-Ready podman run (Every Flag Explained)](https://youtu.be/wJY6khjU9C8) | [`podman-run-anatomy/`](podman-run-anatomy/) |
+| [Kubernetes Requests vs Limits: Why Pods Get OOMKilled (and Throttled)](https://youtu.be/nXlzXlAA7dw) | [`requests-limits-oomkilled/`](requests-limits-oomkilled/) |
+| [Safe Kubernetes Rollouts: maxSurge, rollout status and rollout undo](https://youtu.be/I7LGVoCgWUo) | [`rollout-undo/`](rollout-undo/) |
 
 Channel: https://www.youtube.com/@production-devops
 

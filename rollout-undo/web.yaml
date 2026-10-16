@@ -1,0 +1,30 @@
+# Deployment from the video: a rolling update that stops at the first broken pod.
+# Replace the image with your own; /ready must exist in your app.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web
+  annotations:
+    kubernetes.io/change-cause: "2.4.0: faster search"
+spec:
+  replicas: 4
+  revisionHistoryLimit: 10          # how many old revisions you can roll back to
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1                   # at most 5 pods during a rollout
+      maxUnavailable: 0             # never fewer than 4 ready pods
+  selector:
+    matchLabels: {app: web}
+  template:
+    metadata:
+      labels: {app: web}
+    spec:
+      containers:
+        - name: web
+          image: registry.example.com/acme/web:2.4.0
+          ports:
+            - containerPort: 8080
+          readinessProbe:           # without it, a broken pod counts as available
+            httpGet: {path: /ready, port: 8080}
+            periodSeconds: 5

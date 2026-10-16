@@ -1,0 +1,38 @@
+# Deployment from the video: a slow-starting app with startup, liveness and readiness probes.
+# Replace the image with your own; /healthz and /ready must exist in your app.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api
+spec:
+  replicas: 1
+  selector:
+    matchLabels: {app: api}
+  template:
+    metadata:
+      labels: {app: api}
+    spec:
+      containers:
+        - name: api
+          image: registry.example.com/acme/api:3.2.0
+          ports:
+            - containerPort: 8080
+          startupProbe:                 # holds liveness/readiness until the app has started
+            httpGet: {path: /healthz, port: 8080}
+            periodSeconds: 5
+            failureThreshold: 36        # 5 s x 36 = up to 180 s to start
+          livenessProbe:                # "is the process stuck?" - no dependency checks
+            httpGet: {path: /healthz, port: 8080}
+            periodSeconds: 10
+            timeoutSeconds: 2
+            failureThreshold: 3         # a real hang -> restart in ~30 s
+          readinessProbe:               # "can it serve now?" - may check what it needs to serve
+            httpGet: {path: /ready, port: 8080}
+            periodSeconds: 5
+            failureThreshold: 2         # ~10 s -> removed from the Service, not restarted
+# The broken version from the video had only a liveness probe:
+#   initialDelaySeconds: 10, periodSeconds: 10, timeoutSeconds: 1, failureThreshold: 3
+#   -> killed after ~30 s, but the app needs ~45 s to start: endless restart loop.
+#
+# Check what was applied:
+#   kubectl describe pod <pod> | grep -E 'Liveness|Readiness|Startup'
