@@ -1,0 +1,17 @@
+- name: Create the host directory
+  ansible.builtin.file:
+    path: "target/{{ inventory_hostname }}"
+    state: directory
+    mode: "0755"
+
+- name: Install the logrotate rule
+  ansible.builtin.copy:
+    dest: "target/{{ inventory_hostname }}/acme.logrotate"
+    content: |
+      /var/log/acme/*.log {
+          daily
+          rotate {{ rotate_days }}
+          copytruncate
+      }
+    mode: "0644"
+  when: "'app' in group_names"

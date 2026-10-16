@@ -1,0 +1,5 @@
+- name: Log rotation for every logging client
+  hosts: logging_clients
+  gather_facts: false
+  roles:
+    - app_logrotate

@@ -1,6 +1,6 @@
 # I Asked an AI for an Ansible Playbook. 6 Bugs a Senior Engineer Would Catch
 
-Video: https://youtu.be/zMfMPhcm-5I
+Video: https://youtu.be/lwxMEYYR5uk
 
 An AI assistant generated a complete Ansible playbook for a logging change: backups, validation, rollback, even emojis in the summary. It looked production ready. We run it for real and review it like a senior engineer would, bug by bug, with the fix for each one. Everything runs locally against localhost, in a throwaway directory.
 

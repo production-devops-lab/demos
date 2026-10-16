@@ -1,0 +1,13 @@
+- name: Verify the log rotation rule
+  hosts: logging_clients
+  gather_facts: false
+  tasks:
+    - name: Read the rule
+      ansible.builtin.stat:
+        path: "target/{{ inventory_hostname }}/acme.logrotate"
+      register: rule
+
+    - name: The rule must exist
+      ansible.builtin.assert:
+        that: rule.stat.exists
+        quiet: true

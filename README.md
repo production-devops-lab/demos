@@ -6,10 +6,17 @@ Every folder matches one video. Everything runs in a throwaway directory or cont
 
 | Video | Folder |
 |---|---|
-| [I Asked an AI for an Ansible Playbook. 6 Bugs a Senior Engineer Would Catch](https://youtu.be/zMfMPhcm-5I) | [`ai-playbook-review/`](ai-playbook-review/) |
-| [Your Bash Scripts Fail Silently. Fix It With One Line (set -euo pipefail)](https://youtu.be/_dwhCfnbCxc) | [`bash-strict-mode/`](bash-strict-mode/) |
-| [The find -o Bug Almost Everyone Writes (and the One-Character Fix)](https://youtu.be/QPbr6dse1Xg) | [`find-or-precedence/`](find-or-precedence/) |
-| [Anatomy of a Production-Ready podman run (Every Flag Explained)](https://youtu.be/4ty6wD4AL5s) | [`podman-run-anatomy/`](podman-run-anatomy/) |
+| [I Asked an AI for an Ansible Playbook. 6 Bugs a Senior Engineer Would Catch](https://youtu.be/lwxMEYYR5uk) | [`ai-playbook-review/`](ai-playbook-review/) |
+| [Your Ansible Tests Pass. One Group of Servers Is Still Broken.](https://youtu.be/S9vxvmT0Alw) | [`ansible-test-targets/`](ansible-test-targets/) |
+| [Your Bash Scripts Fail Silently. Fix It With One Line (set -euo pipefail)](https://youtu.be/7fyJngojTyQ) | [`bash-strict-mode/`](bash-strict-mode/) |
+| [Containers and Kubernetes Explained for Sysadmins (No Hype)](https://youtu.be/Z7t-x6k1-VM) | [`containers-kubernetes-intro/`](containers-kubernetes-intro/) |
+| [CrashLoopBackOff: The 5-Step Routine to Find the Real Cause](https://youtu.be/wk2GcCCF0kw) | [`crashloopbackoff-debug/`](crashloopbackoff-debug/) |
+| [The find -o Bug Almost Everyone Writes (and the One-Character Fix)](https://youtu.be/CeFtExfmAZM) | [`find-or-precedence/`](find-or-precedence/) |
+| [journald vs logrotate: Who Rotates Which Logs on Linux?](https://youtu.be/8wSTzmsd_jA) | [`journald-vs-logrotate/`](journald-vs-logrotate/) |
+| [Stop Scrolling kubectl Output: custom-columns, jsonpath and --sort-by](https://youtu.be/lHxPHbiN8dc) | [`kubectl-output-anatomy/`](kubectl-output-anatomy/) |
+| [A Log Health Check Script Your Monitoring Can Trust (Exit Codes 0, 1, 2)](https://youtu.be/dDuTM5zzXaY) | [`log-health-check/`](log-health-check/) |
+| [Your Logs Vanish After Reboot? Make journald Persistent (the Right Way)](https://youtu.be/_TfFevUPuqE) | [`persistent-journald/`](persistent-journald/) |
+| [Anatomy of a Production-Ready podman run (Every Flag Explained)](https://youtu.be/wJY6khjU9C8) | [`podman-run-anatomy/`](podman-run-anatomy/) |
 
 Channel: https://www.youtube.com/@production-devops
 

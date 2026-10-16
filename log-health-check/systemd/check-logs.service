@@ -1,0 +1,7 @@
+[Unit]
+Description=Log health check
+
+[Service]
+Type=oneshot
+Environment=LOG_DIR=/var/log/acme
+ExecStart=/usr/local/bin/check-logs.sh
