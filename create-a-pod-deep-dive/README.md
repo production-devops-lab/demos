@@ -2,7 +2,7 @@
 
 ![What Happens When You Create a Pod: The Full Journey](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/Oe54tngxiyk
 
 Nine lines of YAML go in, a much longer object comes back. We follow one Pod through every step of its creation on a real cluster: authentication and authorization, validation, the defaults added by admission, the write to etcd, the scheduler's binding, the kubelet, and the status reported back. Then which Pod fields you can still change in place, which ones you cannot, and the documentation built into kubectl. Lesson 3 of Kubernetes Deep Dive.
 

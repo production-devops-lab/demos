@@ -2,7 +2,7 @@
 
 ![journalctl Filters: Find the Error in Seconds, Not Minutes](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/CkM5DMevJ3g
 
 An app crashed at night and journalctl prints thousands of lines. Five filters cut them down to the few lines that explain the crash: unit, priority, boot, time window and pattern. Then the journal fields behind every line, and one triage command that combines everything. All on a real journal with two boots and a crash before a reboot.
 

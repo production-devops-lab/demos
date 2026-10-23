@@ -2,7 +2,7 @@
 
 ![How a Kubernetes Cluster Is Built: kubeadm, Certificates and kubeconfig](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/COD5qqO0emI
 
 Before you can fix a cluster, you need to know what built it and where it put things. We open a real cluster built by kubeadm: the init phases, the certificates and when they expire, the static Pod manifests, the configuration saved inside the cluster, the control plane taint, how workers join, and the kubeconfig files that give each component its own identity. Lesson 2 of Kubernetes Deep Dive.
 

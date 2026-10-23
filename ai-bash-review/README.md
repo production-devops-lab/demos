@@ -2,7 +2,7 @@
 
 ![An AI Wrote My Bash Script. Review It Before You Run It](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/rzynBynomqw
 
 An AI assistant writes a cleanup script for old releases in seconds, and it reads well. We test it safely, with a stand-in rm that only prints, and find two bugs: a release name with a space becomes two words, and under cron an empty variable sends the script to the home directory, where it deletes the backups and still reports success. Then what shellcheck catches, what it cannot know, the fixed script, and a review checklist for AI-written Bash.
 

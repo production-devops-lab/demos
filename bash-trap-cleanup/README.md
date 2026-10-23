@@ -2,7 +2,7 @@
 
 ![Bash trap: Clean Up Temp Files and Locks, Even When Your Script Fails](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/GlXI4k3eUhM
 
 A nightly job fails halfway, and leaves a temp file and a lock behind. The next run refuses to start. Step by step, we break a real-looking report script, then fix it with trap: one cleanup function that runs on success, on failure and on Ctrl+C, an error message with the failing line, the right exit code, and a lock that the kernel releases for you with flock. Part 3 of Bash for Production.
 

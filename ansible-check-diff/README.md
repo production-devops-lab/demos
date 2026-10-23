@@ -2,7 +2,7 @@
 
 ![Preview Every Ansible Change Before It Happens: --check and --diff](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/bOFDCkKRoWc
 
 A playbook run should never be a surprise. We change one variable and ask Ansible what it would do, without touching anything: --check simulates the run, --diff shows the exact lines that would change. Then the tasks that lie: a shell command that check mode skips, and that reports changed on every real run. We fix them with a read-only command that runs in check mode, and a handler that reloads only when something really changed.
 
