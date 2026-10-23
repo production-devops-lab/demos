@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: broken
+  namespace: dive
+spec:
+  containers:
+    - name: nginx

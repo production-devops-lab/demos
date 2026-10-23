@@ -1,0 +1,27 @@
+# Challenge solution: print the version found by the read-only task,
+# and keep changed=0 on a second run.
+# Run: ansible-playbook challenge-solution.yml   (twice: the second run must say changed=0)
+- name: Configure acme-app
+  hosts: web
+  gather_facts: false
+  tasks:
+    - name: Read the deployed version
+      ansible.builtin.command: cat VERSION
+      register: version
+      check_mode: false
+      changed_when: false
+
+    # debug never reports changed, and it runs in check mode too
+    - name: Show the deployed version
+      ansible.builtin.debug:
+        msg: "acme-app version {{ version.stdout }}"
+
+    - name: Write the config
+      ansible.builtin.template:
+        src: acme.conf.j2
+        dest: "target/{{ inventory_hostname }}/acme.conf"
+      notify: Reload acme-app
+
+  handlers:
+    - name: Reload acme-app
+      ansible.builtin.shell: "echo reload >> target/{{ inventory_hostname }}/reload.log"

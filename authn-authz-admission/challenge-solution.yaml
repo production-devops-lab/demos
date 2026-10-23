@@ -1,0 +1,43 @@
+# Challenge solution: a ServiceAccount that may list Deployments in ONE namespace only.
+#
+#   kubectl create namespace team-a
+#   kubectl create namespace team-b
+#   kubectl apply -f challenge-solution.yaml
+#
+#   kubectl auth can-i list deployments.apps -n team-a --as=system:serviceaccount:team-a:deploy-viewer
+#   # yes
+#   kubectl auth can-i list deployments.apps -n team-b --as=system:serviceaccount:team-a:deploy-viewer
+#   # no   (a Role and a RoleBinding only work inside their own namespace)
+#
+#   kubectl delete namespace team-a team-b
+#
+# Note: Deployments live in the API group "apps", so the Role must name it (Pods are in the core group "").
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: deploy-viewer
+  namespace: team-a
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: deployment-lister
+  namespace: team-a
+rules:
+  - apiGroups: ["apps"]
+    resources: ["deployments"]
+    verbs: ["get", "list"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: deploy-viewer-lists-deployments
+  namespace: team-a
+subjects:
+  - kind: ServiceAccount
+    name: deploy-viewer
+    namespace: team-a
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: deployment-lister

@@ -1,0 +1,3 @@
+#!/bin/bash
+# Stand-in for rm in this video: it only prints what it would delete.
+for arg in "$@"; do [[ $arg == -* ]] || echo "  would delete: $arg"; done

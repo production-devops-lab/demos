@@ -1,0 +1,11 @@
+- name: Configure acme-app
+  hosts: web
+  gather_facts: false
+  tasks:
+    - name: Write the config
+      ansible.builtin.template:
+        src: acme.conf.j2
+        dest: "target/{{ inventory_hostname }}/acme.conf"
+
+    - name: Reload acme-app
+      ansible.builtin.shell: "echo reload >> target/{{ inventory_hostname }}/reload.log"

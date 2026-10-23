@@ -1,0 +1,23 @@
+# Challenge solution: a Pod that stays Pending for a reason other than a label.
+# It asks for more CPU than any node has, so the scheduler cannot place it.
+#
+#   kubectl apply -f challenge-solution.yaml
+#   kubectl get pod greedy                      # Pending
+#   kubectl get events --field-selector involvedObject.name=greedy \
+#     -o custom-columns=REASON:.reason,FROM:.reportingComponent
+#   # FailedScheduling   default-scheduler
+#   kubectl get events --field-selector involvedObject.name=greedy \
+#     -o custom-columns=MSG:.message --no-headers | tr ',' '\n'
+#   # ... node(s) had Insufficient cpu ...
+#   kubectl delete pod greedy
+apiVersion: v1
+kind: Pod
+metadata:
+  name: greedy
+spec:
+  containers:
+    - name: nginx
+      image: nginx:1.27
+      resources:
+        requests:
+          cpu: "64"
