@@ -1,0 +1,18 @@
+all:
+  hosts:
+    monitor01:
+  children:
+    acme:
+      children:
+        web:
+          hosts:
+            node01: {ansible_host: 127.0.0.1, ansible_port: 2201}
+            node02: {ansible_host: 127.0.0.1, ansible_port: 2202}
+          vars: {app_port: 8080}
+        db:
+          hosts:
+            db[01:02]:
+    prod:
+      hosts:
+        node01:
+        db01:

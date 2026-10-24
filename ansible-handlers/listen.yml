@@ -1,0 +1,20 @@
+---
+- name: One notify, two handlers
+  hosts: node01
+  become: true
+  gather_facts: false
+  tasks:
+    - name: Write the TLS settings
+      ansible.builtin.copy:
+        dest: /etc/acme-app-tls.conf
+        content: "tls=on\n"
+      notify: web stack changed
+
+  handlers:
+    - name: Restart acme-app
+      ansible.builtin.shell: echo "acme-app restarted" >> /tmp/acme-app-restarts.log
+      listen: web stack changed
+
+    - name: Reload the proxy
+      ansible.builtin.shell: echo "proxy reloaded" >> /tmp/acme-app-restarts.log
+      listen: web stack changed

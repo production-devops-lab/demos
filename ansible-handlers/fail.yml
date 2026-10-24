@@ -1,0 +1,19 @@
+---
+- name: A task fails after the notify
+  hosts: node01
+  become: true
+  gather_facts: false
+  tasks:
+    - name: Write the app config
+      ansible.builtin.copy:
+        dest: /etc/acme-app.conf
+        content: "port=7070\n"
+      notify: Restart acme-app
+
+    - name: Run the database migration
+      ansible.builtin.fail:
+        msg: "migration failed"
+
+  handlers:
+    - name: Restart acme-app
+      ansible.builtin.shell: echo "acme-app restarted" >> /tmp/acme-app-restarts.log

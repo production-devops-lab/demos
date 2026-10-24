@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: spin
+  namespace: qos
+spec:
+  nodeSelector: {kubernetes.io/hostname: lab-worker}
+  containers:
+    - name: spin
+      image: busybox:1.36
+      command: ["sh", "-c", "timeout 120 sh -c 'while :; do :; done'; sleep 3600"]
+      resources:
+        requests: {cpu: 100m, memory: 16Mi}
+        limits: {cpu: 200m, memory: 32Mi}

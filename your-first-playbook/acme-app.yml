@@ -1,0 +1,17 @@
+---
+- name: Prepare acme-app
+  hosts: web
+  become: true
+  tasks:
+    - name: Create the app directory
+      ansible.builtin.file:
+        path: /srv/acme-app
+        state: directory
+        owner: ops
+        mode: "0755"
+
+    - name: Write the version file
+      ansible.builtin.copy:
+        dest: /srv/acme-app/VERSION
+        content: "1.0\n"
+        owner: ops

@@ -1,0 +1,1 @@
+There is no ansible.cfg in this folder.

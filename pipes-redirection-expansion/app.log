@@ -1,0 +1,4 @@
+2026-10-20 08:00:01 INFO  acme-app started
+2026-10-20 08:05:12 ERROR database timeout
+2026-10-20 08:06:40 ERROR database timeout
+2026-10-20 08:10:00 INFO  request served

@@ -1,0 +1,32 @@
+---
+# Lesson 10 challenge: both tasks notify a topic, and the restart runs before a final check.
+#   ansible-playbook challenge-solution.yml | grep -v '^$'
+#   -> RUNNING HANDLER [Restart acme-app] appears BEFORE TASK [Check the restart log]
+- name: Configure acme-app
+  hosts: web
+  become: true
+  gather_facts: false
+  tasks:
+    - name: Write the app config
+      ansible.builtin.copy:
+        dest: /etc/acme-app.conf
+        content: "port=8080\n"
+      notify: acme-app config changed
+
+    - name: Write the logging config
+      ansible.builtin.copy:
+        dest: /etc/acme-app-logging.conf
+        content: "level=info\n"
+      notify: acme-app config changed
+
+    - name: Restart now, before the check
+      ansible.builtin.meta: flush_handlers
+
+    - name: Check the restart log
+      ansible.builtin.stat:
+        path: /tmp/acme-app-restarts.log
+
+  handlers:
+    - name: Restart acme-app
+      ansible.builtin.shell: echo "acme-app restarted" >> /tmp/acme-app-restarts.log
+      listen: acme-app config changed

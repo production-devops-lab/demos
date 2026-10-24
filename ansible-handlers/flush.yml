@@ -1,0 +1,22 @@
+---
+- name: Restart before the health check
+  hosts: node01
+  become: true
+  gather_facts: false
+  tasks:
+    - name: Write the app config
+      ansible.builtin.copy:
+        dest: /etc/acme-app.conf
+        content: "port=8081\n"
+      notify: Restart acme-app
+
+    - name: Restart now, not at the end
+      ansible.builtin.meta: flush_handlers
+
+    - name: Check the restart log
+      ansible.builtin.stat:
+        path: /tmp/acme-app-restarts.log
+
+  handlers:
+    - name: Restart acme-app
+      ansible.builtin.shell: echo "acme-app restarted" >> /tmp/acme-app-restarts.log

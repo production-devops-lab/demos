@@ -1,0 +1,8 @@
+---
+- name: Write the message of the day
+  hosts: web
+  tasks:
+    - name: Write /etc/motd
+      ansible.builtin.copy:
+        dest: /etc/motd
+        content: "Managed by Ansible\n"

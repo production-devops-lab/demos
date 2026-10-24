@@ -1,0 +1,13 @@
+---
+# Lesson 8 challenge: oops.yml, fixed. Writing /etc/motd needs root, so the play sets become.
+#   ansible-playbook --syntax-check motd.yml
+#   ansible-playbook motd.yml      -> changed=1 on each host
+#   ansible-playbook motd.yml      -> changed=0 on each host (idempotent)
+- name: Write the message of the day
+  hosts: web
+  become: true
+  tasks:
+    - name: Write /etc/motd
+      ansible.builtin.copy:
+        dest: /etc/motd
+        content: "Managed by Ansible\n"

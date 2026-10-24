@@ -1,0 +1,30 @@
+---
+- name: Prepare the app server
+  hosts: app
+  become: true
+  gather_facts: false
+  tasks:
+    - name: Create the app directory
+      ansible.builtin.file:
+        path: /srv/acme-app
+        state: directory
+        mode: "0755"
+
+- name: Prepare the database server
+  hosts: db
+  gather_facts: false
+  vars:
+    ansible_pipelining: true    # lab only: no ACL tools on the nodes
+  tasks:
+    - name: Create the database user
+      ansible.builtin.user:
+        name: acmedb
+      become: true
+
+    - name: Create the data directory as acmedb
+      ansible.builtin.file:
+        path: /tmp/acmedb-data
+        state: directory
+        mode: "0700"
+      become: true
+      become_user: acmedb

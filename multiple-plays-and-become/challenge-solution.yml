@@ -1,0 +1,44 @@
+---
+# Lesson 9 challenge: site.yml with a third play.
+# The third play runs after the two others, on all hosts, one host at a time, in sorted order.
+- name: Prepare the app server
+  hosts: app
+  become: true
+  gather_facts: false
+  tasks:
+    - name: Create the app directory
+      ansible.builtin.file:
+        path: /srv/acme-app
+        state: directory
+        mode: "0755"
+
+- name: Prepare the database server
+  hosts: db
+  gather_facts: false
+  vars:
+    ansible_pipelining: true    # lab only: no ACL tools on the nodes
+  tasks:
+    - name: Create the database user
+      ansible.builtin.user:
+        name: acmedb
+      become: true
+
+    - name: Create the data directory as acmedb
+      ansible.builtin.file:
+        path: /tmp/acmedb-data
+        state: directory
+        mode: "0700"
+      become: true
+      become_user: acmedb
+
+- name: Message of the day, one host at a time
+  hosts: all
+  become: true
+  gather_facts: false
+  serial: 1
+  order: sorted
+  tasks:
+    - name: Write /etc/motd
+      ansible.builtin.copy:
+        dest: /etc/motd
+        content: "Managed by Ansible\n"

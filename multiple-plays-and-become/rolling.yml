@@ -1,0 +1,11 @@
+---
+- name: Rolling update of acme-app
+  hosts: web
+  become: true
+  gather_facts: false
+  serial: 1
+  tasks:
+    - name: Write the app config
+      ansible.builtin.copy:
+        dest: /etc/acme-app.conf
+        content: "version=2.0\n"

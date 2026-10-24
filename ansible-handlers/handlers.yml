@@ -1,0 +1,21 @@
+---
+- name: Configure acme-app
+  hosts: web
+  become: true
+  gather_facts: false
+  tasks:
+    - name: Write the app config
+      ansible.builtin.copy:
+        dest: /etc/acme-app.conf
+        content: "port=8080\n"
+      notify: Restart acme-app
+
+    - name: Write the logging config
+      ansible.builtin.copy:
+        dest: /etc/acme-app-logging.conf
+        content: "level=info\n"
+      notify: Restart acme-app
+
+  handlers:
+    - name: Restart acme-app
+      ansible.builtin.shell: echo "acme-app restarted" >> /tmp/acme-app-restarts.log

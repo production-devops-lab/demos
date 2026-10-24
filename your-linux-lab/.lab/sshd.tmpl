@@ -1,0 +1,13 @@
+# Lab ssh server for this demo only: localhost, port 2222, keys only
+Port 2222
+ListenAddress 127.0.0.1
+HostKey DEMO/.lab/host_key
+PidFile DEMO/.lab/sshd.pid
+AuthorizedKeysFile DEMO/authorized_keys
+PasswordAuthentication no
+KbdInteractiveAuthentication no
+PermitRootLogin no
+UsePAM no
+StrictModes no
+PrintMotd no
+PrintLastLog no
