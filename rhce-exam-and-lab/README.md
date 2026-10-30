@@ -2,9 +2,9 @@
 
 ![The RHCE Exam (EX294) Explained, Plus a Lab You Can Build Today](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/Fih0METh0Lo
 
-Lesson 1 of Ansible for RHCE. What the EX294 exam covers, area by area, how a practical exam works (tasks checked on the systems, after a reboot, with no internet), and which RHCSA skills you need first. Then we build the practice lab live: a control node and two managed nodes, node01 and node02, with an automation user, SSH keys and passwordless sudo, all on one Linux machine. We prove it with ssh and our first Ansible ping. The lab script is in the demos repo.
+What the EX294 exam covers, area by area, how a practical exam works (tasks checked on the systems, after a reboot, with no internet), and which RHCSA skills you need first. Then we build the practice lab live: a control node and two managed nodes, node01 and node02, with an automation user, SSH keys and passwordless sudo, all on one Linux machine. We prove it with ssh and our first Ansible ping. The lab script is in the demos repo.
 
 ## Files in this folder
 

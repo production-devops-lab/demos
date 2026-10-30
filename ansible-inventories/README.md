@@ -2,9 +2,9 @@
 
 ![Ansible Inventories: Groups, Ranges and Patterns That Hit the Right Hosts](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/dbTDGsLU14E
 
-Lesson 4 of Ansible for RHCE. The inventory decides what every command touches. We write one inventory in INI and then in YAML: hosts, groups, a host in many groups, ranges like db[01:02], groups of groups with :children, the built-in all and ungrouped groups, and a first look at group variables. We check it with ansible-inventory --graph, --host and --list, then select hosts with patterns (web:db, web:&prod, all:!db) and --limit, listing the targets before anything runs.
+The inventory decides what every command touches. We write one inventory in INI and then in YAML: hosts, groups, a host in many groups, ranges like db[01:02], groups of groups with :children, the built-in all and ungrouped groups, and a first look at group variables. We check it with ansible-inventory --graph, --host and --list, then select hosts with patterns (web:db, web:&prod, all:!db) and --limit, listing the targets before anything runs.
 
 ## Files in this folder
 

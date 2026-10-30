@@ -2,7 +2,7 @@
 
 ![ReplicaSets and Deployments: The Control Loop That Replaces Your Pods](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/VDJOnuixJwc
 
 Delete a bare Pod and it is gone for good. Delete a Pod owned by a ReplicaSet and a new one appears in seconds. We watch the control loop at work on a real cluster: reconciliation, scaling, owner references, adoption of orphan Pods, a Pod taken out of its ReplicaSet with one label, the Deployment that sits on top with its pod-template-hash, and the three ways to delete an owner: background, foreground and orphan. Lesson 4 of Kubernetes Deep Dive.
 

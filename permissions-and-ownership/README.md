@@ -2,7 +2,7 @@
 
 ![Linux Permissions and Ownership: rwx, chmod, chown, umask, setuid, setgid and sticky](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/HKb_dzHXP_I
 
 Permission denied, so someone runs chmod 777. It is never the fix. In lesson 7 we prove, live and as three different users, what r, w and x really mean on a file and on a folder, how Linux picks the owner, group or others bits, chmod in symbolic and octal form, chown and chgrp, how umask decides the mode of every new file, and the three special bits: setuid (passwd), setgid (a shared group folder) and sticky (/tmp). Up to date for RHEL/AlmaLinux 9 and Ubuntu 24.04. Lesson 7 of Linux from User to Server Admin.
 

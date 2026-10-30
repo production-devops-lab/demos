@@ -4,7 +4,7 @@
 
 **Video:** https://youtu.be/SUaWFr5oXSE
 
-Lesson one of Kubernetes Deep Dive. We open a real three-node cluster and look at every component: the API server, etcd, the scheduler and the controller manager on the control plane, and the kubelet, kube-proxy and the container runtime on each node. We prove that only the API server talks to etcd, watch the API server push events, and see the CRI, CNI and storage plugins for real.
+We open a real three-node cluster and look at every component: the API server, etcd, the scheduler and the controller manager on the control plane, and the kubelet, kube-proxy and the container runtime on each node. We prove that only the API server talks to etcd, watch the API server push events, and see the CRI, CNI and storage plugins for real.
 
 ## Files in this folder
 

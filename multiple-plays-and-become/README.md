@@ -2,9 +2,9 @@
 
 ![Ansible Plays, become and serial: One Playbook, Many Groups, Rolling Batches](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/NYSKGVOSk7Y
 
-Lesson 9 of Ansible for RHCE. One playbook, several plays: each play targets its own group, and plays run in order. We set become for a whole play or for one task, run a task as another user with become_user, skip fact gathering with gather_facts false, then roll a change out one host at a time with serial, and pick the host order with order. Every step is run on real managed nodes, and the output shows the batches. Challenge and solution in the demos repo.
+One playbook, several plays: each play targets its own group, and plays run in order. We set become for a whole play or for one task, run a task as another user with become_user, skip fact gathering with gather_facts false, then roll a change out one host at a time with serial, and pick the host order with order. Every step is run on real managed nodes, and the output shows the batches. Challenge and solution in the demos repo.
 
 ## Files in this folder
 

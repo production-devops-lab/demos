@@ -2,7 +2,7 @@
 
 ![Your Linux Lab: VM, WSL, Container or Cloud, and Your First SSH Login](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/DvtYpV5tHTQ
 
 To learn Linux you need a system you can break without fear. In lesson 2 we compare the four lab options (a VM, WSL, a container, a cloud server), see how to follow the course, take a quick look at the GNOME desktop, then make a real ssh connection with a key: key pair, authorized_keys, a short client config and known_hosts. We finish with a quick tour of the commands the course uses. Lesson 2 of Linux from User to Server Admin.
 

@@ -2,9 +2,9 @@
 
 ![Ansible Handlers: Restart Only When Something Changed (notify, flush, listen)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/9cPjV6htswg
 
-Lesson 10 of Ansible for RHCE. A config file changes, the service must restart: only if the file really changed, and only once. We notify a handler from two tasks and prove it runs once, at the end of the play, only on the host that changed. Then meta flush_handlers to restart in the middle of a play, listen to trigger several handlers with one notify, why handler names must match, and the trap: when a later task fails, the restart is lost, unless you use --force-handlers. Challenge and solution in the demos repo.
+A config file changes, the service must restart: only if the file really changed, and only once. We notify a handler from two tasks and prove it runs once, at the end of the play, only on the host that changed. Then meta flush_handlers to restart in the middle of a play, listen to trigger several handlers with one notify, why handler names must match, and the trap: when a later task fails, the restart is lost, unless you use --force-handlers. Challenge and solution in the demos repo.
 
 ## Files in this folder
 

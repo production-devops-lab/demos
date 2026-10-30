@@ -2,9 +2,9 @@
 
 ![Your First Ansible Playbook: YAML, Tasks and the PLAY RECAP, Line by Line](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/W446YdksMYE
 
-Lesson 8 of Ansible for RHCE. From ad hoc commands to a playbook you can run again and again. The YAML you need for Ansible (dictionaries, lists, indentation, and the quoting traps that turn 0755 into 493 and no into false), then a play line by line: name, hosts, become, tasks with full module names. We catch a mistake with --syntax-check, run the playbook, read the output line by line (ok, changed, failed, PLAY RECAP), run it again to prove idempotency, and look at -v and at a failed run. Challenge and solution in the demos repo.
+From ad hoc commands to a playbook you can run again and again. The YAML you need for Ansible (dictionaries, lists, indentation, and the quoting traps that turn 0755 into 493 and no into false), then a play line by line: name, hosts, become, tasks with full module names. We catch a mistake with --syntax-check, run the playbook, read the output line by line (ok, changed, failed, PLAY RECAP), run it again to prove idempotency, and look at -v and at a failed run. Challenge and solution in the demos repo.
 
 ## Files in this folder
 

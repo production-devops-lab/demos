@@ -2,7 +2,7 @@
 
 ![Kubernetes ResourceQuota and LimitRange: Why Your Pods Never Start](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/M9SgQ6mohgc
 
 The Deployment says created, yet zero Pods run. We put a namespace under a ResourceQuota on a real cluster and hit the classic trap: Pods without requests and limits are refused, and only the ReplicaSet events say why. Then quotas on CPU, memory and object counts, the exact message when a Pod asks for more than what is left, and a LimitRange that fills in defaults and rejects oversized containers. Lesson 5 of Kubernetes Deep Dive.
 

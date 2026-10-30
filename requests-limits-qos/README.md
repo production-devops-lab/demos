@@ -2,7 +2,7 @@
 
 ![Kubernetes Requests, Limits and QoS: Throttling, OOM and Eviction](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/2_-RIsJVjlE
 
 A Pod with a CPU limit never crashes: it just gets slow, and nothing in the logs says why. We read requests and limits from both sides on a real cluster: the scheduler's budget on each node, a Pod that asks for too much and stays Pending, CPU throttling measured from inside the container's cgroup, the memory ceiling the kernel enforces, and the three QoS classes that decide who is killed or evicted first. Lesson 6 of Kubernetes Deep Dive.
 

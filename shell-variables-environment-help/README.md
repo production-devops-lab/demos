@@ -2,7 +2,7 @@
 
 ![Shell Variables, the Environment and Getting Help: export, .bashrc and man](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/ogYkJs7TGgg
 
 You set a variable, and your script cannot see it. You add it to .bashrc, and a login over SSH ignores it. In lesson 5 we prove, live, the difference between shell and environment variables, export, printenv and declare -p, the VAR=value command form, source, and which startup files a login, an interactive and a non-interactive shell really read (RHEL 9 and Ubuntu 24.04). Then how to get help on your own: man and its sections, man 5 passwd, apropos and man -k, --help, help for builtins, and info. Lesson 5 of Linux from User to Server Admin.
 

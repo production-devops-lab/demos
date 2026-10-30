@@ -2,7 +2,7 @@
 
 ![What Linux Really Is: Kernel, Distributions and Which One to Pick](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/Z2CeWyJcuKk
 
 Ubuntu, RHEL, AlmaLinux, Fedora: all of them are Linux, and none of them is just Linux. In lesson 1 we ask a real system what it is: the kernel with uname, the distribution with /etc/os-release, and why a container has a distribution but no kernel of its own. Then the two big families, the licences, and how to pick a distribution for servers and for your lab. Lesson 1 of Linux from User to Server Admin.
 

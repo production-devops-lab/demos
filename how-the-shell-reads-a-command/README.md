@@ -2,7 +2,7 @@
 
 ![How the Shell Reads Your Command: Builtins, PATH, Aliases and History](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/h1M-xueelQE
 
 Your script is right there in the folder, and the shell says command not found. In lesson 3 we follow what bash does with every line you type: the prompt, builtins and external commands (type, which, command -v), the PATH search and why ./ is needed, aliases, history with !! and !$, line editing keys and tab completion. Lesson 3 of Linux from User to Server Admin.
 

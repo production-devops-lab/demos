@@ -2,7 +2,7 @@
 
 ![Pipes, Redirection and Expansion: What the Shell Does Before Your Command Runs](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/qaRT-9rcPek
 
 You redirect a command to a file, and the error still lands on your screen. A file name with a space breaks your script. In lesson 4 we prove, live, how the three streams work (stdin, stdout, stderr and file descriptors), every redirection (>, >>, 2>, 2>&1, &>, <), pipes and tee, then the order of shell expansions (brace, tilde, parameter, command substitution, arithmetic, word splitting, globbing) and the three kinds of quoting. Lesson 4 of Linux from User to Server Admin.
 

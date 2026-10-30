@@ -2,9 +2,9 @@
 
 ![Ansible Ad Hoc Commands: command, shell, raw and One-Line Changes](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/rX_C5KA-WQM
 
-Lesson 6 of Ansible for RHCE. Ad hoc commands run one module on many hosts, with no playbook. We take the command apart (pattern, dash m, dash a, dash b), then see the real difference between the command, shell and raw modules: pipes and redirection only work in shell, and raw needs no Python. Then copy, file and user as one-line changes with become, a dry run with --check, idempotency (changed, then ok), and a small shell script that wraps ad hoc commands, an EX294 objective. Challenge and solution in the demos repo.
+Ad hoc commands run one module on many hosts, with no playbook. We take the command apart (pattern, dash m, dash a, dash b), then see the real difference between the command, shell and raw modules: pipes and redirection only work in shell, and raw needs no Python. Then copy, file and user as one-line changes with become, a dry run with --check, idempotency (changed, then ok), and a small shell script that wraps ad hoc commands, an EX294 objective. Challenge and solution in the demos repo.
 
 ## Files in this folder
 

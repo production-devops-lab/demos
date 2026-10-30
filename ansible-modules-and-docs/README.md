@@ -2,9 +2,9 @@
 
 ![ansible-doc: Find Any Ansible Module and Read Its Docs Offline](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/OrIu5SMOjUM
 
-Lesson 7 of Ansible for RHCE. On the exam there is no internet: ansible-doc is your only manual. We search modules with ansible-doc -l and grep, print a ready-to-paste snippet with -s, and read a module page the fast way: required options, defaults and choices, aliases, examples and return values. Then fully qualified collection names like ansible.builtin.copy, where modules live on disk, and what a collection is, with ansible-galaxy collection list. Challenge and solution in the demos repo.
+On the exam there is no internet: ansible-doc is your only manual. We search modules with ansible-doc -l and grep, print a ready-to-paste snippet with -s, and read a module page the fast way: required options, defaults and choices, aliases, examples and return values. Then fully qualified collection names like ansible.builtin.copy, where modules live on disk, and what a collection is, with ansible-galaxy collection list. Challenge and solution in the demos repo.
 
 ## Files in this folder
 

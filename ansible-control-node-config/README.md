@@ -2,9 +2,9 @@
 
 ![Which ansible.cfg Is Ansible Really Using? Control Node Setup](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/I7rtw3gkGJo
 
-Lesson 3 of Ansible for RHCE. The same command works in one folder and fails in another: same Ansible, different config file. We install and check ansible-core, then prove the ansible.cfg search order for real (ANSIBLE_CONFIG, ./ansible.cfg, ~/.ansible.cfg, /etc/ansible/ansible.cfg), read the effective settings with ansible-config dump --only-changed and ansible-config view, and walk through the settings that matter: inventory, remote_user, forks, host_key_checking and become. Plus the world-writable folder that silently ignores your config.
+The same command works in one folder and fails in another: same Ansible, different config file. We install and check ansible-core, then prove the ansible.cfg search order for real (ANSIBLE_CONFIG, ./ansible.cfg, ~/.ansible.cfg, /etc/ansible/ansible.cfg), read the effective settings with ansible-config dump --only-changed and ansible-config view, and walk through the settings that matter: inventory, remote_user, forks, host_key_checking and become. Plus the world-writable folder that silently ignores your config.
 
 ## Files in this folder
 

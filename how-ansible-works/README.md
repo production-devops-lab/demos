@@ -2,9 +2,9 @@
 
 ![How Ansible Really Works: SSH, Python and Idempotency, Step by Step](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/U0oEk5AXrZA
 
-Lesson 2 of Ansible for RHCE. Ansible installs nothing on your servers, so what really happens when you run a task? We keep the files Ansible sends and read its verbose log: one SSH login as the automation user, a module copied into a temp directory, run by the node's Python, a JSON answer, and a cleanup. Then idempotency, for real: the same task twice, changed then ok, and why command always says changed. Plus the push model, and ansible-core vs collections vs Automation Platform.
+Ansible installs nothing on your servers, so what really happens when you run a task? We keep the files Ansible sends and read its verbose log: one SSH login as the automation user, a module copied into a temp directory, run by the node's Python, a JSON answer, and a cleanup. Then idempotency, for real: the same task twice, changed then ok, and why command always says changed. Plus the push model, and ansible-core vs collections vs Automation Platform.
 
 ## Files in this folder
 

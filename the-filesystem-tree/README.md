@@ -2,7 +2,7 @@
 
 ![The Linux Filesystem Tree: /etc, /var, /proc, Paths and ls -l Explained](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/or3EGe7yHjk
 
 A service fails and you need its configuration and its logs, fast. On Linux you do not search: you know where they live. In lesson 6 we walk the filesystem tree (the FHS: /etc, /var, /usr, /home, /opt, /tmp, /boot and the virtual /proc, /sys and /dev), absolute and relative paths with cd tricks (cd -, ~, ..), then we read ls -l column by column (type, permissions, links, owner, group, size, date, name) and finish with file and stat. Up to date for RHEL/AlmaLinux 9 and Ubuntu 24.04. Lesson 6 of Linux from User to Server Admin.
 

@@ -2,7 +2,7 @@
 
 ![cp, mv, rm and Links: The Traps, Hard Links vs Symlinks, and Inodes](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/Q0_x5dxMVyU
 
 One cp and the owner and dates of your files are gone. One mv and your file is renamed instead of moved. One rm with an empty variable and the path becomes /. In lesson 8 we prove, live and safely, the traps of cp, mv and rm (-r vs -a, running the same cp twice, the destination slash, rm -rf "$DIR/" and the :? guard), then what an inode is (ls -i, stat), hard links vs symbolic links, relative symlink targets, and what happens to each kind of link when you delete the original. Lesson 8 of Linux from User to Server Admin.
 
