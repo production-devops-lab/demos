@@ -2,7 +2,7 @@
 
 ![How the Internet Is Layered: Encapsulation on a Real Packet (Linux Lab, tcpdump)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/RuLUmcPWsA0
 
 Six bytes of data, and the wire carries 48: who adds the other 42, and why? We build a two-host network lab from Linux network namespaces, explain the lab script line by line, send one UDP message and read the capture layer by layer: Ethernet, IP, UDP, data. Along the way: packets versus connections, the end-to-end idea, ports, client/server and peer-to-peer, and what an RFC is. Lab script, capture script and challenge solution in the demos repo.
 

@@ -17,6 +17,7 @@ Every folder matches one video. Everything runs in a throwaway directory or cont
 | [ansible-doc: Find Any Ansible Module and Read Its Docs Offline](https://youtu.be/OrIu5SMOjUM) | [`ansible-modules-and-docs/`](ansible-modules-and-docs/) |
 | [Your Ansible Tests Pass. One Group of Servers Is Still Broken.](https://youtu.be/S9vxvmT0Alw) | [`ansible-test-targets/`](ansible-test-targets/) |
 | [The API Behind kubectl: See the Requests, Then Send Your Own](https://youtu.be/ZMJbws9InMs) | [`api-behind-kubectl/`](api-behind-kubectl/) |
+| ARP Explained: Who Has This IP? Request, Reply and the Neighbour Cache, in Real Captures | [`arp/`](arp/) |
 | [401 or 403? The Three Gates of Every Kubernetes API Request](https://youtu.be/sEjGaLVMpu8) | [`authn-authz-admission/`](authn-authz-admission/) |
 | [Your Bash Scripts Fail Silently. Fix It With One Line (set -euo pipefail)](https://youtu.be/7fyJngojTyQ) | [`bash-strict-mode/`](bash-strict-mode/) |
 | [Bash trap: Clean Up Temp Files and Locks, Even When Your Script Fails](https://youtu.be/GlXI4k3eUhM) | [`bash-trap-cleanup/`](bash-trap-cleanup/) |
@@ -26,15 +27,15 @@ Every folder matches one video. Everything runs in a throwaway directory or cont
 | [cp, mv, rm and Links: The Traps, Hard Links vs Symlinks, and Inodes](https://youtu.be/Q0_x5dxMVyU) | [`copy-move-links/`](copy-move-links/) |
 | [CrashLoopBackOff: The 5-Step Routine to Find the Real Cause](https://youtu.be/wk2GcCCF0kw) | [`crashloopbackoff-debug/`](crashloopbackoff-debug/) |
 | [What Happens When You Create a Pod: The Full Journey](https://youtu.be/Oe54tngxiyk) | [`create-a-pod-deep-dive/`](create-a-pod-deep-dive/) |
-| Ethernet Frames and MAC Addresses, Field by Field (EtherType, MTU, tcpdump -e) | [`ethernet-frames-and-mac/`](ethernet-frames-and-mac/) |
+| [Ethernet Frames and MAC Addresses, Field by Field (EtherType, MTU, tcpdump -e)](https://youtu.be/QkC51XTzi4U) | [`ethernet-frames-and-mac/`](ethernet-frames-and-mac/) |
 | [The find -o Bug Almost Everyone Writes (and the One-Character Fix)](https://youtu.be/CeFtExfmAZM) | [`find-or-precedence/`](find-or-precedence/) |
 | [How a Kubernetes Cluster Is Built: kubeadm, Certificates and kubeconfig](https://youtu.be/COD5qqO0emI) | [`how-a-cluster-is-built/`](how-a-cluster-is-built/) |
 | [How Ansible Really Works: SSH, Python and Idempotency, Step by Step](https://youtu.be/U0oEk5AXrZA) | [`how-ansible-works/`](how-ansible-works/) |
-| How the Internet Is Layered: Encapsulation on a Real Packet (Linux Lab, tcpdump) | [`how-the-internet-is-layered/`](how-the-internet-is-layered/) |
+| [How the Internet Is Layered: Encapsulation on a Real Packet (Linux Lab, tcpdump)](https://youtu.be/RuLUmcPWsA0) | [`how-the-internet-is-layered/`](how-the-internet-is-layered/) |
 | [How the Shell Reads Your Command: Builtins, PATH, Aliases and History](https://youtu.be/h1M-xueelQE) | [`how-the-shell-reads-a-command/`](how-the-shell-reads-a-command/) |
 | [HSTS Explained: Why You Can't Click "Proceed Anyway"](https://youtu.be/3qI4BNjC8Y8) | [`hsts-explained/`](hsts-explained/) |
 | [kubectl create vs apply: Stop Your Cluster Drifting From Git](https://youtu.be/FgkpneZH1Yc) | [`imperative-vs-declarative/`](imperative-vs-declarative/) |
-| IPv4 Addresses, Subnets and CIDR Without Fear (Masks, Prefixes, VLSM, Aggregation) | [`ipv4-addresses-subnets-cidr/`](ipv4-addresses-subnets-cidr/) |
+| [IPv4 Addresses, Subnets and CIDR Without Fear (Masks, Prefixes, VLSM, Aggregation)](https://youtu.be/OQYk657Ft9Q) | [`ipv4-addresses-subnets-cidr/`](ipv4-addresses-subnets-cidr/) |
 | [journalctl Filters: Find the Error in Seconds, Not Minutes](https://youtu.be/CkM5DMevJ3g) | [`journalctl-filters/`](journalctl-filters/) |
 | [journald vs logrotate: Who Rotates Which Logs on Linux?](https://youtu.be/8wSTzmsd_jA) | [`journald-vs-logrotate/`](journald-vs-logrotate/) |
 | [Kubernetes Architecture Under the Hood: Who Really Talks to etcd](https://youtu.be/SUaWFr5oXSE) | [`k8s-architecture/`](k8s-architecture/) |
@@ -56,8 +57,8 @@ Every folder matches one video. Everything runs in a throwaway directory or cont
 | [The RHCE Exam (EX294) Explained, Plus a Lab You Can Build Today](https://youtu.be/Fih0METh0Lo) | [`rhce-exam-and-lab/`](rhce-exam-and-lab/) |
 | [Safe Kubernetes Rollouts: maxSurge, rollout status and rollout undo](https://youtu.be/I7LGVoCgWUo) | [`rollout-undo/`](rollout-undo/) |
 | [Shell Variables, the Environment and Getting Help: export, .bashrc and man](https://youtu.be/ogYkJs7TGgg) | [`shell-variables-environment-help/`](shell-variables-environment-help/) |
-| Special IP Addresses and IPv6 Notation (Private, Loopback, Link-Local, Multicast, Anycast) | [`special-addresses-and-ipv6/`](special-addresses-and-ipv6/) |
-| How a Switch Learns: Linux Bridge, MAC Table and Flooding, Proven in a Capture | [`switches-and-bridges/`](switches-and-bridges/) |
+| [Special IP Addresses and IPv6 Notation (Private, Loopback, Link-Local, Multicast, Anycast)](https://youtu.be/7XofcM7P3dY) | [`special-addresses-and-ipv6/`](special-addresses-and-ipv6/) |
+| [How a Switch Learns: Linux Bridge, MAC Table and Flooding, Proven in a Capture](https://youtu.be/4u0tc2HaUNY) | [`switches-and-bridges/`](switches-and-bridges/) |
 | TCP Three-Way Handshake and Close, Packet by Packet (SYN, ISN, FIN, Half-Close) | [`tcp-handshake-and-close/`](tcp-handshake-and-close/) |
 | [The Linux Filesystem Tree: /etc, /var, /proc, Paths and ls -l Explained](https://youtu.be/or3EGe7yHjk) | [`the-filesystem-tree/`](the-filesystem-tree/) |
 | [What Linux Really Is: Kernel, Distributions and Which One to Pick](https://youtu.be/Z2CeWyJcuKk) | [`what-linux-really-is/`](what-linux-really-is/) |

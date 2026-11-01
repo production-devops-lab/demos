@@ -2,7 +2,7 @@
 
 ![Special IP Addresses and IPv6 Notation (Private, Loopback, Link-Local, Multicast, Anycast)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/7XofcM7P3dY
 
 Some addresses never leave the machine, some never cross a router, and some reach many hosts at once. We map the special IPv4 ranges (private, loopback, link-local, shared, documentation, broadcast, multicast) and anycast, find them in a real Linux routing table, then learn to read and shorten 128-bit IPv6 addresses without mistakes, and see how a link-local IPv6 address is built from a MAC address. Who hands out addresses, and multihoming, in brief. Script and challenge solution in the demos repo.
 

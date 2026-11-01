@@ -2,7 +2,7 @@
 
 ![Ethernet Frames and MAC Addresses, Field by Field (EtherType, MTU, tcpdump -e)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/QkC51XTzi4U
 
 The card says MTU 1500, tcpdump shows a 1514-byte frame, and an ARP frame is only 42 bytes when the minimum is 64: who is right? We capture real frames between two Linux network namespaces with tcpdump -e and read the Ethernet header field by field: destination and source MAC, EtherType, payload, plus the preamble and the FCS that tcpdump never shows. MAC address bits (unicast, group, locally administered), MTU, full duplex and autonegotiation in brief. Lab script, capture script and challenge solution in the demos repo.
 

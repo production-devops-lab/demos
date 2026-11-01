@@ -2,7 +2,7 @@
 
 ![How a Switch Learns: Linux Bridge, MAC Table and Flooding, Proven in a Capture](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/4u0tc2HaUNY
 
 Nobody configures a switch's table, yet it sends each frame to the right port, and sometimes it sends your frame to everyone. We build a Linux bridge with three hosts in network namespaces, watch the learning table fill up with bridge fdb, and prove with tcpdump on a third host when frames are flooded: broadcasts, and unicast to an unknown destination. Loops, broadcast storms and the Spanning Tree Protocol in brief. Lab script, capture script and challenge solution in the demos repo.
 

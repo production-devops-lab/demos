@@ -2,7 +2,7 @@
 
 ![IPv4 Addresses, Subnets and CIDR Without Fear (Masks, Prefixes, VLSM, Aggregation)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/OQYk657Ft9Q
 
 Two addresses only twenty apart, and yet they cannot talk without a router: the prefix length decides. We read an IPv4 address as 32 bits, go from the old classes to CIDR, turn a /26 into its mask, network, hosts and broadcast, then split a /24 with VLSM and merge two prefixes back into one. Every answer is computed exactly by a 12-line Python script, explained line by line, and checked against a real Linux interface. Scripts and challenge solution in the demos repo.
 
