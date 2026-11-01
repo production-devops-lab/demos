@@ -2,7 +2,7 @@
 
 ![ARP Explained: Who Has This IP? Request, Reply and the Neighbour Cache, in Real Captures](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/3RZGOvTo8wk
 
 Your host knows the IP address, but an Ethernet frame needs a MAC: ARP finds it. We capture one ARP exchange on a Linux bridge with three hosts in network namespaces, and prove that the request is a broadcast everyone hears while the reply is unicast. Then the ARP message field by field (28 bytes, 42 with Ethernet), the neighbour cache with ip neigh and its states (REACHABLE, STALE, DELAY, FAILED), a host that does not exist and its Destination Host Unreachable, proxy ARP and gratuitous ARP. Lab script, capture script and challenge solution in the demos repo.
 

@@ -17,7 +17,7 @@ Every folder matches one video. Everything runs in a throwaway directory or cont
 | [ansible-doc: Find Any Ansible Module and Read Its Docs Offline](https://youtu.be/OrIu5SMOjUM) | [`ansible-modules-and-docs/`](ansible-modules-and-docs/) |
 | [Your Ansible Tests Pass. One Group of Servers Is Still Broken.](https://youtu.be/S9vxvmT0Alw) | [`ansible-test-targets/`](ansible-test-targets/) |
 | [The API Behind kubectl: See the Requests, Then Send Your Own](https://youtu.be/ZMJbws9InMs) | [`api-behind-kubectl/`](api-behind-kubectl/) |
-| ARP Explained: Who Has This IP? Request, Reply and the Neighbour Cache, in Real Captures | [`arp/`](arp/) |
+| [ARP Explained: Who Has This IP? Request, Reply and the Neighbour Cache, in Real Captures](https://youtu.be/3RZGOvTo8wk) | [`arp/`](arp/) |
 | [401 or 403? The Three Gates of Every Kubernetes API Request](https://youtu.be/sEjGaLVMpu8) | [`authn-authz-admission/`](authn-authz-admission/) |
 | [Your Bash Scripts Fail Silently. Fix It With One Line (set -euo pipefail)](https://youtu.be/7fyJngojTyQ) | [`bash-strict-mode/`](bash-strict-mode/) |
 | [Bash trap: Clean Up Temp Files and Locks, Even When Your Script Fails](https://youtu.be/GlXI4k3eUhM) | [`bash-trap-cleanup/`](bash-trap-cleanup/) |
@@ -61,6 +61,7 @@ Every folder matches one video. Everything runs in a throwaway directory or cont
 | [How a Switch Learns: Linux Bridge, MAC Table and Flooding, Proven in a Capture](https://youtu.be/4u0tc2HaUNY) | [`switches-and-bridges/`](switches-and-bridges/) |
 | TCP Three-Way Handshake and Close, Packet by Packet (SYN, ISN, FIN, Half-Close) | [`tcp-handshake-and-close/`](tcp-handshake-and-close/) |
 | [The Linux Filesystem Tree: /etc, /var, /proc, Paths and ls -l Explained](https://youtu.be/or3EGe7yHjk) | [`the-filesystem-tree/`](the-filesystem-tree/) |
+| VLANs, Bonding and Tunnels on Linux: the 802.1Q Tag, Failover and the MTU Tax | [`vlans-bonding-and-tunnels/`](vlans-bonding-and-tunnels/) |
 | [What Linux Really Is: Kernel, Distributions and Which One to Pick](https://youtu.be/Z2CeWyJcuKk) | [`what-linux-really-is/`](what-linux-really-is/) |
 | [Your First Ansible Playbook: YAML, Tasks and the PLAY RECAP, Line by Line](https://youtu.be/W446YdksMYE) | [`your-first-playbook/`](your-first-playbook/) |
 | [Your Linux Lab: VM, WSL, Container or Cloud, and Your First SSH Login](https://youtu.be/DvtYpV5tHTQ) | [`your-linux-lab/`](your-linux-lab/) |
