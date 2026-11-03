@@ -61,8 +61,9 @@ Every folder matches one video. Everything runs in a throwaway directory or cont
 | [How a Switch Learns: Linux Bridge, MAC Table and Flooding, Proven in a Capture](https://youtu.be/4u0tc2HaUNY) | [`switches-and-bridges/`](switches-and-bridges/) |
 | TCP Three-Way Handshake and Close, Packet by Packet (SYN, ISN, FIN, Half-Close) | [`tcp-handshake-and-close/`](tcp-handshake-and-close/) |
 | [The Linux Filesystem Tree: /etc, /var, /proc, Paths and ls -l Explained](https://youtu.be/or3EGe7yHjk) | [`the-filesystem-tree/`](the-filesystem-tree/) |
-| VLANs, Bonding and Tunnels on Linux: the 802.1Q Tag, Failover and the MTU Tax | [`vlans-bonding-and-tunnels/`](vlans-bonding-and-tunnels/) |
+| [VLANs, Bonding and Tunnels on Linux: the 802.1Q Tag, Failover and the MTU Tax](https://youtu.be/GwgKeZRzkCw) | [`vlans-bonding-and-tunnels/`](vlans-bonding-and-tunnels/) |
 | [What Linux Really Is: Kernel, Distributions and Which One to Pick](https://youtu.be/Z2CeWyJcuKk) | [`what-linux-really-is/`](what-linux-really-is/) |
+| Why Kubernetes Exists: From One Server to Many (No Experience Needed) | [`why-kubernetes-exists/`](why-kubernetes-exists/) |
 | [Your First Ansible Playbook: YAML, Tasks and the PLAY RECAP, Line by Line](https://youtu.be/W446YdksMYE) | [`your-first-playbook/`](your-first-playbook/) |
 | [Your Linux Lab: VM, WSL, Container or Cloud, and Your First SSH Login](https://youtu.be/DvtYpV5tHTQ) | [`your-linux-lab/`](your-linux-lab/) |
 

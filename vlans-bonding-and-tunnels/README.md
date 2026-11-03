@@ -2,7 +2,7 @@
 
 ![VLANs, Bonding and Tunnels on Linux: the 802.1Q Tag, Failover and the MTU Tax](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/GwgKeZRzkCw
 
 Why can two hosts on the same switch and the same subnet not ping each other, and why is your tunnel's MTU 1480 instead of 1500? We build VLANs on a Linux bridge with vlan_filtering, access and trunk ports, and capture the 4-byte 802.1Q tag on the trunk with tcpdump; we bond two cables in active-backup and pull one during a ping; and we capture an IP-in-IP tunnel with two IP headers in every packet. Loopback and LACP in brief. Lab script and challenge solution in the demos repo.
 
