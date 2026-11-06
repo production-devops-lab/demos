@@ -1,0 +1,7 @@
+- name: Use the secret
+  hosts: web
+  gather_facts: false
+  tasks:
+    - name: Prove we can read it
+      ansible.builtin.debug:
+        msg: "db_pass has {{ db_pass | length }} characters"

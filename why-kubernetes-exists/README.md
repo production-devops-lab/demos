@@ -2,7 +2,7 @@
 
 ![Why Kubernetes Exists: From One Server to Many (No Experience Needed)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/oLztxycFOdg
 
 Your app runs on one computer, and when that computer stops, your app stops too. This first lesson of Kubernetes from Zero shows, with pictures and everyday comparisons, why Kubernetes exists: what goes wrong with one server, what gets hard by hand with many, and the simple idea behind Kubernetes: you say what you want, and it keeps it true. No terminal, nothing to install, no experience needed. Every new word is explained on screen. The challenge and its solution are in the demos repo.
 

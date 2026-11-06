@@ -1,0 +1,19 @@
+# Lesson 7 challenge: our first playbook, with a third task
+- name: Prepare acme-app
+  hosts: web
+  gather_facts: false
+  tasks:
+    - name: Create the app folder
+      ansible.builtin.file:
+        path: /tmp/acme-app
+        state: directory
+
+    - name: Copy the welcome file
+      ansible.builtin.copy:
+        src: hello.txt
+        dest: /tmp/acme-app/hello.txt
+
+    - name: Create the logs folder
+      ansible.builtin.file:
+        path: /tmp/acme-app/logs
+        state: directory

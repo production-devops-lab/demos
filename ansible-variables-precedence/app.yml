@@ -1,0 +1,11 @@
+- name: Configure acme-app
+  hosts: web
+  gather_facts: false
+  vars:
+    app_name: acme-app
+  vars_files:
+    - vars/acme.yml
+  tasks:
+    - name: Show the settings
+      ansible.builtin.debug:
+        msg: "{{ app_name }} ({{ app_env }}) on port {{ app_port }}"

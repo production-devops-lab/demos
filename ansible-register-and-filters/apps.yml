@@ -1,0 +1,4 @@
+apps:
+  - {name: acme-app, enabled: true}
+  - {name: acme-api, enabled: false}
+  - {name: acme-web, enabled: true}

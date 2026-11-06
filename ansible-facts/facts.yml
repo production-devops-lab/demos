@@ -1,0 +1,7 @@
+- name: Read the facts
+  hosts: web
+  gather_facts: true
+  tasks:
+    - name: Show two facts
+      ansible.builtin.debug:
+        msg: "{{ ansible_facts['hostname'] }} runs {{ ansible_facts['distribution'] }}"

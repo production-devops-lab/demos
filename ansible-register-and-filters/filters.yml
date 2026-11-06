@@ -1,0 +1,11 @@
+- name: Shape data with filters
+  hosts: node01
+  gather_facts: false
+  vars_files: apps.yml
+  tasks:
+    - name: A default, a test, a chain
+      ansible.builtin.debug:
+        msg:
+          - "owner: {{ app_owner | default('ops') }}"
+          - "owner set? {{ app_owner is defined }}"
+          - "enabled: {{ apps | selectattr('enabled') | map(attribute='name') | join(', ') }}"

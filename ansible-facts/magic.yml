@@ -1,0 +1,10 @@
+- name: Magic variables
+  hosts: node01
+  gather_facts: false
+  tasks:
+    - name: Ask about the others
+      ansible.builtin.debug:
+        msg:
+          - "I am {{ inventory_hostname }}"
+          - "web: {{ groups['web'] }}"
+          - "node02 runs {{ hostvars['node02']['ansible_facts']['distribution'] }}"

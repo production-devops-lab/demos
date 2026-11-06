@@ -1,0 +1,14 @@
+# Lesson 7: our first playbook
+- name: Prepare acme-app
+  hosts: web
+  gather_facts: false
+  tasks:
+    - name: Create the app folder
+      ansible.builtin.file:
+        path: /tmp/acme-app
+        state: directory
+
+    - name: Copy the welcome file
+      ansible.builtin.copy:
+        src: hello.txt
+        dest: /tmp/acme-app/hello.txt

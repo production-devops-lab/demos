@@ -1,0 +1,9 @@
+# Final challenge of Ansible from Zero: a folder /tmp/acme-app/data on all servers
+- name: Prepare the data folder
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: Create the data folder
+      ansible.builtin.file:
+        path: /tmp/acme-app/data
+        state: directory

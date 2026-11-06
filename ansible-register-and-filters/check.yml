@@ -1,0 +1,12 @@
+- name: Is acme-app there?
+  hosts: web
+  gather_facts: false
+  tasks:
+    - name: Look for the app folder
+      ansible.builtin.command: test -d /tmp/acme-app
+      register: app
+      ignore_errors: true
+    - name: Report the missing ones
+      ansible.builtin.debug:
+        msg: "acme-app missing, rc={{ app.rc }}"
+      when: app is failed

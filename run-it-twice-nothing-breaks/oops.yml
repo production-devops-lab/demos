@@ -1,0 +1,9 @@
+# Lesson 8: we play a colleague who deletes a file
+- name: Delete the welcome file
+  hosts: node02
+  gather_facts: false
+  tasks:
+    - name: Delete the welcome file
+      ansible.builtin.file:
+        path: /tmp/acme-app/hello.txt
+        state: absent
