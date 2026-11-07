@@ -1,0 +1,4 @@
+2026-10-20 08:00:01 INFO acme-app started
+2026-10-20 08:01:30 ERROR payment service timeout
+2026-10-20 08:02:10 WARN disk 85% full
+2026-10-20 08:05:01 ERROR payment service timeout
