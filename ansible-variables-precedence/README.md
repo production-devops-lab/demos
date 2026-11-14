@@ -2,7 +2,7 @@
 
 ![Ansible Variables and Precedence: Which Value Wins? (vars, group_vars, host_vars, -e)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/BgkpOOleZmg
 
 node02 must listen on its own port, until a colleague adds a "default" to the playbook and node02 silently moves. We put variables where Ansible looks for them: group_vars and host_vars next to the inventory, vars and vars_files in the play, -e on the command line, and print the winner with the debug module. Then the trap, the precedence ladder and the five rules that matter in daily work, and the fix: defaults belong in group_vars/all. Challenge and solution in the demos repo.
 

@@ -2,7 +2,7 @@
 
 ![The IPv4 Header, Field by Field: Version, TTL, Flags, Checksum and Options in a Real Capture](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/O3kp6UMCmRI
 
 Every IPv4 packet starts with the same 20 bytes, and tcpdump -v prints most of them. We capture one UDP message between two Linux network namespaces and read its header field by field, in tcpdump and in raw hex: version and IHL, the DS field with DSCP and ECN, total length, identification, the DF and MF flags, TTL, protocol, the header checksum and the addresses. Then we run it again to prove what the checksum covers, and make the header grow from 20 to 60 bytes with an IP option. Lab script, capture script and challenge solution in the demos repo.
 

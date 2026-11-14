@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web
+  namespace: shop
+spec:
+  replicas: 3
+  selector:
+    matchLabels: {app: web}
+  template:
+    metadata:
+      labels: {app: web}
+    spec:
+      containers:
+        - name: web
+          image: busybox:1.36
+          command: ["sh", "-c", "hostname > /tmp/index.html; httpd -p 9090 -h /tmp; httpd -f -p 8080 -h /tmp"]
+          ports:
+            - {name: http, containerPort: 8080}
+            - {name: admin, containerPort: 9090}

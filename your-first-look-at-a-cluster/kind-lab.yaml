@@ -1,0 +1,8 @@
+# A practice cluster with 3 nodes: one control plane (the office) and two workers (the kitchens).
+# Used by: kind create cluster --name lab --config kind-lab.yaml
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+nodes:
+  - role: control-plane
+  - role: worker
+  - role: worker

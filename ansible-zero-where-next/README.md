@@ -2,7 +2,7 @@
 
 ![Ansible from Zero, Where Next: What You Can Do Now, and the RHCE Course](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/5E0XAnm9m-U
 
 Eight lessons ago, one change on ten servers meant fifty steps by hand. This last lesson of Ansible from Zero puts the whole course in one picture: the control node, the inventory, modules, ad hoc commands, a playbook, and why running it twice breaks nothing. Then where to go next: what the Ansible for RHCE course adds, from variables and admin rights to loops, templates, roles and Vault, and how to keep practicing on your two practice servers. No experience needed. The final challenge and its solution are in the demos repo.
 

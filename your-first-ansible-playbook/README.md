@@ -2,7 +2,7 @@
 
 ![Your First Ansible Playbook, Line by Line: ansible-playbook (No Experience Needed)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/kQfmK4FlT-s
 
 Ad hoc commands are gone once they have run. A playbook writes the jobs down, so you can run them again on every server. This lesson of Ansible from Zero reads a first playbook as a map, then line by line: a play, the servers it is for, and two tasks, the folder and the file from lesson 6. Then ansible-playbook checks the spelling without touching any server, runs the playbook on two practice servers, and we read every part of its output, down to the play recap. No experience needed: every new word is explained on screen. The files, the challenge and its solution are in the demos repo.
 

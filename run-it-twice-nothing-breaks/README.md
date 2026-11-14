@@ -2,7 +2,7 @@
 
 ![Run It Twice, Nothing Breaks: Idempotency in Ansible (No Experience Needed)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/-RX6SD_syXc
 
 What happens if you run the same Ansible playbook twice? A second folder, an error, a mess? This lesson of Ansible from Zero runs the playbook from lesson 7 a second time on two practice servers, and everything turns green: changed is zero. That is idempotency, explained with an oven: "the oven must be at 200 degrees", not "turn it up by 20". Then we play a colleague who deletes a file on one server, and the same playbook puts back only what is missing. No experience needed: every new word is explained on screen. The files, the challenge and its solution are in the demos repo.
 

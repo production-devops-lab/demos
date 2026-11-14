@@ -2,7 +2,7 @@
 
 ![Forwarding and Routing Tables: Default Route, Longest Prefix Match and ip_forward, on a Real Router](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/RWdOY3A0nXY
 
 A ping across one Linux router fails three times, for three different reasons, before it works: no route, forwarding off, no route back. We build the router with network namespaces, read the routing table with ip route, add a default route, turn on net.ipv4.ip_forward, and prove longest prefix match with ip route get. Then we capture both sides of the router to see what forwarding really changes: a new frame with new MAC addresses, the same IP addresses, and a TTL one lower. Source address selection included. Lab script, capture script and challenge solution in the demos repo.
 

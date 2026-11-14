@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api
+  namespace: acme
+spec:
+  replicas: 3
+  selector: {matchLabels: {app: api}}
+  template:
+    metadata: {labels: {app: api}}
+    spec:
+      containers:
+        - name: api
+          image: busybox:1.36
+          command: ["sh", "-c", "touch /tmp/ready; httpd -f -p 8080 -h /tmp"]
+          ports: [{name: http, containerPort: 8080}]
+          readinessProbe:
+            exec: {command: ["cat", "/tmp/ready"]}
+            periodSeconds: 2
