@@ -2,7 +2,7 @@
 
 ![Your First Kubernetes Pod from a YAML File: kubectl apply (No Experience Needed)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/6tHMCnytTQE
 
 Your cluster is empty: how do you put an app on it? This lesson of Kubernetes from Zero writes your first Pod in a small YAML file, reads it line by line, and hands it to the cluster with kubectl apply. Then we hand over the same file a second time, and see why nothing changes. No experience needed: every new word is explained on screen. The file, the challenge and its solution are in the demos repo.
 

@@ -2,7 +2,7 @@
 
 ![A Kubernetes Cluster, Drawn: Nodes, Control Plane and Desired State](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/_y6uve9tst0
 
 Everyone says Kubernetes runs on a "cluster", but what does one look like? This lesson of Kubernetes from Zero draws a cluster piece by piece: nodes, the worker nodes where your apps run, the control plane that decides and watches, and the simple loop that keeps your app the way you asked, like a thermostat. No terminal, nothing to install, no experience needed. Every new word is explained on screen. The challenge and its solution are in the demos repo.
 

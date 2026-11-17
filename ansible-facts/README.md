@@ -2,7 +2,7 @@
 
 ![Ansible Facts: setup, ansible_facts, Custom Facts, Fact Cache and Magic Variables](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/J0207sLmDo0
 
 Before every play, Ansible runs a task you never wrote: Gathering Facts. We open it up: the setup module collects about a thousand lines per host, a filter keeps the few you need, and ansible_facts puts them in your playbooks. Then custom facts from /etc/ansible/facts.d, a fact cache on disk, and the magic variables inventory_hostname, groups and hostvars, to read node02's facts from a play that never connects to it. Challenge and solution in the demos repo.
 

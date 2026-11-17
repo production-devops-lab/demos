@@ -2,7 +2,7 @@
 
 ![Kubernetes Services: One Stable Address for Changing Pods (No Experience Needed)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/Ix-JkOakdTw
 
 Every new Pod gets a new address, so how do visitors find your app? This lesson of Kubernetes from Zero shows the problem for real, then the fix: a Service, one name and one address that stay the same while the Pods change. We read the Service's YAML line by line and reach the app from our own computer with kubectl port-forward. No experience needed: every new word is explained on screen. The files, the challenge and its solution are in the demos repo.
 

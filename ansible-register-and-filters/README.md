@@ -2,7 +2,7 @@
 
 ![Ansible register and Jinja2 Filters: Catch a Task's Result, Then Shape It](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/ppBjWKICqtM
 
 A task runs a command on your node, Ansible prints "changed", and the output is gone. We catch it with register and open the result: rc, stdout, stdout_lines, changed, failed. Then tests like "is failed" and "is defined", a when condition on a registered result, and the filters you use every day: default, selectattr, map and join, chained in one line that turns a list of dictionaries into exactly the names you need. Challenge and solution in the demos repo.
 

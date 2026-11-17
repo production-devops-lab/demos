@@ -2,7 +2,7 @@
 
 ![Kubernetes Deployments: Delete Your Pods and Watch Them Come Back (No Experience Needed)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/IQ2pr3L07nI
 
 A single Pod that stops stays stopped. This lesson of Kubernetes from Zero shows the Deployment, the standing order that keeps three copies of your app running, always. We read its YAML file line by line, delete all the Pods on purpose and watch new ones appear, then change one number in the file to get more copies. No experience needed: every new word is explained on screen. The file, the challenge and its solution are in the demos repo.
 

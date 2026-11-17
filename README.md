@@ -6,22 +6,22 @@ Every folder matches one video. Everything runs in a throwaway directory or cont
 
 | Video | Folder |
 |---|---|
-| A Kubernetes Cluster, Drawn: Nodes, Control Plane and Desired State | [`a-cluster-drawn/`](a-cluster-drawn/) |
+| [A Kubernetes Cluster, Drawn: Nodes, Control Plane and Desired State](https://youtu.be/_y6uve9tst0) | [`a-cluster-drawn/`](a-cluster-drawn/) |
 | [An AI Wrote My Bash Script. Review It Before You Run It](https://youtu.be/rzynBynomqw) | [`ai-bash-review/`](ai-bash-review/) |
 | [The AI Blamed HSTS. The Real Bug Was http:// on a TLS Port](https://youtu.be/tEtOMVB1q9Y) | [`ai-blamed-hsts/`](ai-blamed-hsts/) |
 | [I Asked an AI for an Ansible Playbook. 6 Bugs a Senior Engineer Would Catch](https://youtu.be/lwxMEYYR5uk) | [`ai-playbook-review/`](ai-playbook-review/) |
 | [Ansible Ad Hoc Commands: command, shell, raw and One-Line Changes](https://youtu.be/rX_C5KA-WQM) | [`ansible-ad-hoc-commands/`](ansible-ad-hoc-commands/) |
 | [Preview Every Ansible Change Before It Happens: --check and --diff](https://youtu.be/bOFDCkKRoWc) | [`ansible-check-diff/`](ansible-check-diff/) |
 | [Which ansible.cfg Is Ansible Really Using? Control Node Setup](https://youtu.be/I7rtw3gkGJo) | [`ansible-control-node-config/`](ansible-control-node-config/) |
-| Ansible Facts: setup, ansible_facts, Custom Facts, Fact Cache and Magic Variables | [`ansible-facts/`](ansible-facts/) |
+| [Ansible Facts: setup, ansible_facts, Custom Facts, Fact Cache and Magic Variables](https://youtu.be/J0207sLmDo0) | [`ansible-facts/`](ansible-facts/) |
 | [Ansible Handlers: Restart Only When Something Changed (notify, flush, listen)](https://youtu.be/9cPjV6htswg) | [`ansible-handlers/`](ansible-handlers/) |
 | [Ansible Inventories: Groups, Ranges and Patterns That Hit the Right Hosts](https://youtu.be/dbTDGsLU14E) | [`ansible-inventories/`](ansible-inventories/) |
 | [ansible-doc: Find Any Ansible Module and Read Its Docs Offline](https://youtu.be/OrIu5SMOjUM) | [`ansible-modules-and-docs/`](ansible-modules-and-docs/) |
 | [Ansible Modules: Ready-Made Tasks, file and copy (No Experience Needed)](https://youtu.be/UluSlQqApNg) | [`ansible-modules-ready-made/`](ansible-modules-ready-made/) |
-| Ansible register and Jinja2 Filters: Catch a Task's Result, Then Shape It | [`ansible-register-and-filters/`](ansible-register-and-filters/) |
+| [Ansible register and Jinja2 Filters: Catch a Task's Result, Then Shape It](https://youtu.be/ppBjWKICqtM) | [`ansible-register-and-filters/`](ansible-register-and-filters/) |
 | [Your Ansible Tests Pass. One Group of Servers Is Still Broken.](https://youtu.be/S9vxvmT0Alw) | [`ansible-test-targets/`](ansible-test-targets/) |
 | [Ansible Variables and Precedence: Which Value Wins? (vars, group_vars, host_vars, -e)](https://youtu.be/BgkpOOleZmg) | [`ansible-variables-precedence/`](ansible-variables-precedence/) |
-| Ansible Vault: Encrypt Secrets, Password Files, Vault IDs and encrypt_string | [`ansible-vault/`](ansible-vault/) |
+| [Ansible Vault: Encrypt Secrets, Password Files, Vault IDs and encrypt_string](https://youtu.be/-itqZQvCCyM) | [`ansible-vault/`](ansible-vault/) |
 | [Ansible from Zero, Where Next: What You Can Do Now, and the RHCE Course](https://youtu.be/5E0XAnm9m-U) | [`ansible-zero-where-next/`](ansible-zero-where-next/) |
 | [The API Behind kubectl: See the Requests, Then Send Your Own](https://youtu.be/ZMJbws9InMs) | [`api-behind-kubectl/`](api-behind-kubectl/) |
 | [ARP Explained: Who Has This IP? Request, Reply and the Neighbour Cache, in Real Captures](https://youtu.be/3RZGOvTo8wk) | [`arp/`](arp/) |
@@ -31,12 +31,12 @@ Every folder matches one video. Everything runs in a throwaway directory or cont
 | Kubernetes Cluster DNS: CoreDNS, Search Domains and the ndots Trap | [`cluster-dns/`](cluster-dns/) |
 | [CN Is Dead, SAN Rules: Why Your Browser Rejects a "Valid" Certificate](https://youtu.be/4VyL2i0PN-w) | [`cn-vs-san/`](cn-vs-san/) |
 | [What a Container Really Is: Namespaces and cgroups by Hand](https://youtu.be/i7dqLhTH69c) | [`containers-by-hand/`](containers-by-hand/) |
-| Containers in Five Minutes: Image, Container, Registry (No Experience Needed) | [`containers-in-five-minutes/`](containers-in-five-minutes/) |
+| [Containers in Five Minutes: Image, Container, Registry (No Experience Needed)](https://youtu.be/knb2b9KIfmw) | [`containers-in-five-minutes/`](containers-in-five-minutes/) |
 | [Containers and Kubernetes Explained for Sysadmins (No Hype)](https://youtu.be/Z7t-x6k1-VM) | [`containers-kubernetes-intro/`](containers-kubernetes-intro/) |
 | [cp, mv, rm and Links: The Traps, Hard Links vs Symlinks, and Inodes](https://youtu.be/Q0_x5dxMVyU) | [`copy-move-links/`](copy-move-links/) |
 | [CrashLoopBackOff: The 5-Step Routine to Find the Real Cause](https://youtu.be/wk2GcCCF0kw) | [`crashloopbackoff-debug/`](crashloopbackoff-debug/) |
 | [What Happens When You Create a Pod: The Full Journey](https://youtu.be/Oe54tngxiyk) | [`create-a-pod-deep-dive/`](create-a-pod-deep-dive/) |
-| Kubernetes Deployments: Delete Your Pods and Watch Them Come Back (No Experience Needed) | [`deployments-keep-your-app-running/`](deployments-keep-your-app-running/) |
+| [Kubernetes Deployments: Delete Your Pods and Watch Them Come Back (No Experience Needed)](https://youtu.be/IQ2pr3L07nI) | [`deployments-keep-your-app-running/`](deployments-keep-your-app-running/) |
 | [Ethernet Frames and MAC Addresses, Field by Field (EtherType, MTU, tcpdump -e)](https://youtu.be/QkC51XTzi4U) | [`ethernet-frames-and-mac/`](ethernet-frames-and-mac/) |
 | [The find -o Bug Almost Everyone Writes (and the One-Character Fix)](https://youtu.be/CeFtExfmAZM) | [`find-or-precedence/`](find-or-precedence/) |
 | [Forwarding and Routing Tables: Default Route, Longest Prefix Match and ip_forward, on a Real Router](https://youtu.be/RWdOY3A0nXY) | [`forwarding-and-routing-tables/`](forwarding-and-routing-tables/) |
@@ -66,7 +66,7 @@ Every folder matches one video. Everything runs in a throwaway directory or cont
 | [What Really Happens When You Create a Pod](https://youtu.be/ppFUJIgkOdQ) | [`pod-lifecycle/`](pod-lifecycle/) |
 | [Anatomy of a Production-Ready podman run (Every Flag Explained)](https://youtu.be/wJY6khjU9C8) | [`podman-run-anatomy/`](podman-run-anatomy/) |
 | Linux Processes: ps, top, PID and PPID, /proc and Process States | [`processes-ps-top-proc/`](processes-ps-top-proc/) |
-| Kubernetes from Zero, Putting It Together: a Whole App From One File | [`putting-it-together-and-where-next/`](putting-it-together-and-where-next/) |
+| [Kubernetes from Zero, Putting It Together: a Whole App From One File](https://youtu.be/gwV3gvYsIPE) | [`putting-it-together-and-where-next/`](putting-it-together-and-where-next/) |
 | [Kubernetes ResourceQuota and LimitRange: Why Your Pods Never Start](https://youtu.be/M9SgQ6mohgc) | [`quotas-and-limitranges/`](quotas-and-limitranges/) |
 | [ReplicaSets and Deployments: The Control Loop That Replaces Your Pods](https://youtu.be/VDJOnuixJwc) | [`replicasets-control-loop/`](replicasets-control-loop/) |
 | [Kubernetes Requests vs Limits: Why Pods Get OOMKilled (and Throttled)](https://youtu.be/nXlzXlAA7dw) | [`requests-limits-oomkilled/`](requests-limits-oomkilled/) |
@@ -76,7 +76,7 @@ Every folder matches one video. Everything runs in a throwaway directory or cont
 | [Run It Twice, Nothing Breaks: Idempotency in Ansible (No Experience Needed)](https://youtu.be/-RX6SD_syXc) | [`run-it-twice-nothing-breaks/`](run-it-twice-nothing-breaks/) |
 | Searching and Transforming Text: grep, cut, sort, uniq, sed and awk | [`searching-and-transforming-text/`](searching-and-transforming-text/) |
 | Kubernetes Services in Depth: ClusterIP, NodePort, LoadBalancer, ExternalName | [`services-in-depth/`](services-in-depth/) |
-| Kubernetes Services: One Stable Address for Changing Pods (No Experience Needed) | [`services-one-stable-address/`](services-one-stable-address/) |
+| [Kubernetes Services: One Stable Address for Changing Pods (No Experience Needed)](https://youtu.be/Ix-JkOakdTw) | [`services-one-stable-address/`](services-one-stable-address/) |
 | [Shell Variables, the Environment and Getting Help: export, .bashrc and man](https://youtu.be/ogYkJs7TGgg) | [`shell-variables-environment-help/`](shell-variables-environment-help/) |
 | [Special IP Addresses and IPv6 Notation (Private, Loopback, Link-Local, Multicast, Anycast)](https://youtu.be/7XofcM7P3dY) | [`special-addresses-and-ipv6/`](special-addresses-and-ipv6/) |
 | [How a Switch Learns: Linux Bridge, MAC Table and Flooding, Proven in a Capture](https://youtu.be/4u0tc2HaUNY) | [`switches-and-bridges/`](switches-and-bridges/) |
@@ -92,9 +92,9 @@ Every folder matches one video. Everything runs in a throwaway directory or cont
 | [Your Ansible Inventory: the List of Servers, ansible-inventory --graph (No Experience Needed)](https://youtu.be/9Ow1sKpmQYc) | [`your-ansible-inventory/`](your-ansible-inventory/) |
 | [Your First Ansible Ad Hoc Command: ansible all -m ping (No Experience Needed)](https://youtu.be/O-DsDxHKrOA) | [`your-first-ad-hoc-command/`](your-first-ad-hoc-command/) |
 | [Your First Ansible Playbook, Line by Line: ansible-playbook (No Experience Needed)](https://youtu.be/kQfmK4FlT-s) | [`your-first-ansible-playbook/`](your-first-ansible-playbook/) |
-| Your First Look at a Kubernetes Cluster: kind and kubectl get (No Experience Needed) | [`your-first-look-at-a-cluster/`](your-first-look-at-a-cluster/) |
+| [Your First Look at a Kubernetes Cluster: kind and kubectl get (No Experience Needed)](https://youtu.be/Sq1GuHgzrbs) | [`your-first-look-at-a-cluster/`](your-first-look-at-a-cluster/) |
 | [Your First Ansible Playbook: YAML, Tasks and the PLAY RECAP, Line by Line](https://youtu.be/W446YdksMYE) | [`your-first-playbook/`](your-first-playbook/) |
-| Your First Kubernetes Pod from a YAML File: kubectl apply (No Experience Needed) | [`your-first-pod-from-a-yaml-file/`](your-first-pod-from-a-yaml-file/) |
+| [Your First Kubernetes Pod from a YAML File: kubectl apply (No Experience Needed)](https://youtu.be/6tHMCnytTQE) | [`your-first-pod-from-a-yaml-file/`](your-first-pod-from-a-yaml-file/) |
 | [Your Linux Lab: VM, WSL, Container or Cloud, and Your First SSH Login](https://youtu.be/DvtYpV5tHTQ) | [`your-linux-lab/`](your-linux-lab/) |
 
 Channel: https://www.youtube.com/@production-devops

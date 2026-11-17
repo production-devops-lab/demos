@@ -2,7 +2,7 @@
 
 ![Ansible Vault: Encrypt Secrets, Password Files, Vault IDs and encrypt_string](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/-itqZQvCCyM
 
 A password in a vars file is readable by anyone who can read your repository. Ansible Vault encrypts it: we encrypt a group_vars file, look at the ciphertext, read it back with view, and run a playbook that decrypts it in memory. Then --ask-vault-pass versus a password file, create, edit, decrypt and rekey, vault IDs with labels, and encrypt_string for one secret inside a normal YAML file. Challenge and solution in the demos repo.
 

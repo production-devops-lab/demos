@@ -2,7 +2,7 @@
 
 ![Your First Look at a Kubernetes Cluster: kind and kubectl get (No Experience Needed)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/Sq1GuHgzrbs
 
 You have heard about clusters, now see a real one, running on a normal computer. This lesson of Kubernetes from Zero explains kind, a practice cluster inside Docker, and kubectl, the program that talks to the cluster. Then you type your first Kubernetes command, kubectl get, and read every column of its answer. No experience needed: every new word is explained on screen. The setup guide, the challenge and its solution are in the demos repo.
 

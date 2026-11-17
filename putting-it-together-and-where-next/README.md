@@ -2,7 +2,7 @@
 
 ![Kubernetes from Zero, Putting It Together: a Whole App From One File](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/gwV3gvYsIPE
 
 You know the pieces, now build a whole app with them. This last lesson of Kubernetes from Zero puts a Deployment and a Service in one file, applies it from zero with the commands you already know, proves it heals itself, and fills in the cluster drawing of lesson 3 with the real names. Then a quick quiz, and where to go next: the Kubernetes Path. No experience needed: every word was explained in the earlier lessons. The file, the challenge and its solution are in the demos repo.
 

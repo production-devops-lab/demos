@@ -2,7 +2,7 @@
 
 ![Containers in Five Minutes: Image, Container, Registry (No Experience Needed)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/knb2b9KIfmw
 
 Kubernetes runs containers, but what is a container, really? In five minutes, with one real command, this lesson of Kubernetes from Zero shows the three words you need: the image, the container and the registry. We start a container twice and see why the second time is different. No experience needed: every new word is explained on screen. The setup guide, the challenge and its solution are in the demos repo.
 
