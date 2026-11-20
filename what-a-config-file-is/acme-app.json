@@ -1,0 +1,6 @@
+{
+  "app": "acme-app",
+  "port": 8080,
+  "replicas": 3,
+  "debug": false
+}

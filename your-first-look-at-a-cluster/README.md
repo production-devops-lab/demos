@@ -32,7 +32,7 @@ This is lesson four of Kubernetes from Zero. First, a practice cluster on one co
 
 ### kind
 
-- `kind`: A tool that makes a small practice cluster on your computer (like a practice kitchen at home: real tools, smaller size)
+- `kind — A tool that makes a small practice cluster on your computer (like a practice kitchen at home: real tools, smaller size)`: 
 First word: kind. Kind makes a small practice cluster on your computer. Think of a practice kitchen at home: real tools, smaller size.
 
 **kind: Kubernetes in Docker**
@@ -57,7 +57,7 @@ Another tool, minikube, does the same job. You can pick either one. A practice c
 
 ### kubectl
 
-- `kubectl`: The program you use to talk to a cluster (like the phone to the manager's office: you ask, the office answers)
+- `kubectl — The program you use to talk to a cluster (like the phone to the manager's office: you ask, the office answers)`: 
 Second word: kubectl, often said cube control. It is the program you use to talk to a cluster. It is your phone to the manager's office.
 
 **You ask, the office answers**
@@ -126,7 +126,7 @@ So far: kind gives us a practice cluster, inside Docker. Kubectl get nodes lists
 
 ### Second time
 
-- `Pod`: The smallest thing Kubernetes runs: one or more containers together (like a tray: the dish travels on it, through the kitchen)
+- `Pod — The smallest thing Kubernetes runs: one or more containers together (like a tray: the dish travels on it, through the kitchen)`: 
 Kubernetes does not run a container alone. It puts it in a Pod, like a dish on a tray. We meet Pods properly next lesson.
 
 Are there any apps running? The same command, with pods instead of nodes.

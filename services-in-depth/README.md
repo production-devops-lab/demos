@@ -2,7 +2,7 @@
 
 ![Kubernetes Services in Depth: ClusterIP, NodePort, LoadBalancer, ExternalName](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/Yyi09M6G84o
 
 Four Service types, and on a laptop cluster one of them waits forever. On a real cluster we build a ClusterIP Service with two named ports and targetPort by name, open a NodePort on every node and reach it from a node that runs none of the Pods, see why a LoadBalancer stays pending without a cloud controller, alias an outside name with ExternalName, make a client stick to one Pod with sessionAffinity, and hit the NodePort range and collision errors. Lesson 7 of Kubernetes Deep Dive.
 

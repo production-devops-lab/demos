@@ -32,7 +32,7 @@ This is lesson five of Kubernetes from Zero. First, what a Pod is. Then a YAML f
 
 ### The Pod
 
-- `Pod`: The smallest thing Kubernetes runs: one or more containers together (like a tray: the dish travels on it, through the kitchen)
+- `Pod — The smallest thing Kubernetes runs: one or more containers together (like a tray: the dish travels on it, through the kitchen)`: 
 Last lesson we met the word Pod. A Pod holds one or more containers. Kubernetes moves the tray, not the single dish.
 
 **A Pod, drawn**
@@ -52,7 +52,7 @@ Here is our Pod, acme app, on a worker node. It holds one container, called web,
 
 ### The YAML file
 
-- `YAML`: A text format: one name and one value per line (like an order form: each line is a field, filled in)
+- `YAML — A text format: one name and one value per line (like an order form: each line is a field, filled in)`: 
 To ask for a Pod, we write a YAML file. YAML is text, with a name and a value on each line. Think of an order form.
 
 Here is the whole file. Eight lines, in three parts.

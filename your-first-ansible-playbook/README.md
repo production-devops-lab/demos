@@ -42,13 +42,13 @@ This is lesson seven of Ansible from Zero. First, what a playbook is. Then our p
 
 ### Playbook
 
-- `playbook`: A file of tasks for Ansible, to run again and again (like the recipe card, written down: every kitchen follows it)
+- `playbook — A file of tasks for Ansible, to run again and again (like the recipe card, written down: every kitchen follows it)`: 
 New word: playbook. It is a file of tasks for Ansible, to run again and again. Think of the recipe card, written down.
 
-- `task`: One step of a playbook: one module, with its details (like one line of the recipe: "preheat the oven to 200")
+- `task — One step of a playbook: one module, with its details (like one line of the recipe: "preheat the oven to 200")`: 
 Each step in a playbook is a task. A task is one module, with its details. One line of the recipe.
 
-- `play`: A part of a playbook: which servers, and which tasks (like "for the pizza kitchens: these steps")
+- `play — A part of a playbook: which servers, and which tasks (like "for the pizza kitchens: these steps")`: 
 The tasks sit inside a play. A play says which servers, and which tasks. For the pizza kitchens, these steps.
 
 **Playbook, play, tasks**

@@ -40,7 +40,7 @@ This is lesson six of Ansible from Zero. First, modules: a shelf of ready-made t
 
 ### Modules
 
-- `module`: A small program that does one job on a server (like a standard step every cook knows: "put the sign on the door")
+- `module — A small program that does one job on a server (like a standard step every cook knows: "put the sign on the door")`: 
 You met this word in lesson two. A module is a small program that does one job on a server. A standard step every cook knows.
 
 **A shelf of ready-made tasks**
@@ -64,7 +64,7 @@ Ansible comes with about seventy modules, and you can add thousands more. Here a
 
 ### Details
 
-- `argument`: A detail a module needs, written as key=value (like the words to write on the sign)
+- `argument — A detail a module needs, written as key=value (like the words to write on the sign)`: 
 A module needs details: which folder, which file. Each detail is called an argument. Like the words to write on the sign.
 
 ### A folder

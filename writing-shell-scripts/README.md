@@ -2,7 +2,7 @@
 
 ![Writing Shell Scripts: Arguments, if, case, Loops, Functions and Exit Codes](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/-84_S4OSUFg
 
 You keep typing the same five commands, so you put them in a file, and the first time someone runs it wrong, it says nothing useful. In lesson 14 we write one small bash script that checks acme-app logs and read it as it grows: the shebang, arguments ($1, $#, "$@"), variables, test and if, case, shift, a for loop, a function, and exit codes that monitoring and other scripts can trust. Shown whole, block by block, whole again, then run. Up to date for RHEL/AlmaLinux 9 and Ubuntu 24.04. Lesson 14 of Linux from User to Server Admin.
 

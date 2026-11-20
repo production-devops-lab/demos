@@ -1,0 +1,3 @@
+app: acme-app
+Port: 8080
+replicas:3

@@ -29,12 +29,12 @@ This is lesson three of Ansible from Zero. First, a key and a value. Then lists,
 
 ### YAML
 
-- `YAML`: A text format for settings: keys, values and lists (like an order form: each line is one field, filled in)
+- `YAML — A text format for settings: keys, values and lists (like an order form: each line is one field, filled in)`: 
 First word: YAML. It is a text format for settings, easy for people and programs to read. Think of an order form.
 
 ### Key and value
 
-- `key`: The label before the colon; the value comes after it (like a field on the form: "Table:" and then "4")
+- `key — The label before the colon; the value comes after it (like a field on the form: "Table:" and then "4")`: 
 Each line has a key and a value. The key is the label before the colon. Like a field on a form: table, and then four.
 
 ```
@@ -49,7 +49,7 @@ With the space, table is the key and four is the value. Without the space, YAML 
 
 ### Lists
 
-- `list`: Several values, one per line, each after a dash (like a shopping list: one item per line)
+- `list — Several values, one per line, each after a dash (like a shopping list: one item per line)`: 
 Second rule, the list. A list is several values, one per line, each after a dash. Like a shopping list.
 
 ```
@@ -63,7 +63,7 @@ The key dishes has nothing after its colon. So its value comes on the next lines
 
 ### Spaces
 
-- `indentation`: Spaces at the start of a line: they show what belongs to what (like a sub-item on a to-do list, pushed to the right)
+- `indentation — Spaces at the start of a line: they show what belongs to what (like a sub-item on a to-do list, pushed to the right)`: 
 Third rule: indentation. It means spaces at the start of a line. They show what belongs to what, like a sub-item on a to-do list.
 
 ```
@@ -111,7 +111,7 @@ Look at line three. Dishes has one space, not two. Does dishes belong to order o
 
 ### A real file
 
-- `comment`: A note for people, after a # sign; programs skip it (like a pencil note in the margin of a recipe)
+- `comment — A note for people, after a # sign; programs skip it (like a pencil note in the margin of a recipe)`: 
 One last word: comment. A comment is a note for people, after a hash sign. Programs skip it, like a pencil note on a recipe.
 
 Here is the start of the Ansible file from lesson seven. Do not read the words yet. Look at the shapes.

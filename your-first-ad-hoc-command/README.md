@@ -64,10 +64,10 @@ Here is the settings file from lesson four. The main settings, and where the lis
 
 ### Ad hoc
 
-- `ad hoc command`: One quick instruction, typed once, not saved in a file (like a quick phone call to every kitchen)
+- `ad hoc command — One quick instruction, typed once, not saved in a file (like a quick phone call to every kitchen)`: 
 New word: ad hoc command. It is one quick instruction, typed once, and not saved in a file. Like a quick phone call to every kitchen.
 
-- `ping module`: Checks that Ansible can log in, and that Python can run a module (like calling a kitchen: "are you there, and ready to cook?")
+- `ping module — Checks that Ansible can log in, and that Python can run a module (like calling a kitchen: "are you there, and ready to cook?")`: 
 Our question is the ping module. It checks that Ansible can log in, and that Python can run a module. Are you there, and ready to cook?
 
 ```console

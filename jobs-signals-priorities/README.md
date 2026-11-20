@@ -2,7 +2,7 @@
 
 ![Jobs, Signals and Priorities: fg, bg, kill, nohup, nice and renice](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/7eEUWhu8-FA
 
 You start a long task over SSH, the connection drops, and the task dies. Why? A signal. In lesson 13 we prove, live: background jobs with &, jobs, fg and bg, what Ctrl+C and Ctrl+Z really send, kill and the signal list, TERM that lets a program clean up vs KILL that does not, the HUP that ends your jobs when the terminal closes and how nohup survives it, then nice and renice, and cgroups in brief. Up to date for RHEL/AlmaLinux 9 and Ubuntu 24.04. Lesson 13 of Linux from User to Server Admin.
 

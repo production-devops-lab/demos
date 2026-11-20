@@ -1,0 +1,5 @@
+servers:
+  - name: node01
+    port: 8080
+  - name: node02
+    port: 8081

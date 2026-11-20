@@ -1,0 +1,5 @@
+# lab settings
+app: acme-app  # our app
+message: >
+  Hello
+  from the lab.

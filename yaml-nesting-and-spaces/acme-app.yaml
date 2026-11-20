@@ -1,0 +1,7 @@
+app: acme-app
+settings:
+  port: 8080
+  debug: false
+servers:
+  - node01
+  - node02

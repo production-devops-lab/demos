@@ -2,7 +2,7 @@
 
 ![Searching and Transforming Text: grep, cut, sort, uniq, sed and awk](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/5dL9ErXQNO4
 
 A log with thousands of lines, and one question: which endpoint is failing, and is it slow too? In lesson 11 we answer it with one pipeline, built one piece at a time on an acme-app log: grep with basic and extended regular expressions, wc, cut, sort, uniq -c and sort -rn, the uniq count that lies without sort, then sed to substitute and awk to filter on a number. Up to date for RHEL/AlmaLinux 9 and Ubuntu 24.04. Lesson 11 of Linux from User to Server Admin.
 

@@ -1,0 +1,4 @@
+2026-11-01 08:00:01 INFO  acme-app started
+2026-11-01 10:42:13 ERROR database not reachable
+2026-11-01 10:42:20 WARN  retrying in 5 seconds
+2026-11-01 10:42:25 INFO  database connected

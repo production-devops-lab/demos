@@ -2,7 +2,7 @@
 
 ![Inside kube-proxy: EndpointSlices and the iptables Rules Behind a Service](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/bqstkiMNRA0
 
 A Service address belongs to no machine, yet every node answers it. On a real cluster we follow the whole path: the EndpointSlice that lists the Pods (and why Endpoints is deprecated), ready and not-ready endpoints, kube-proxy on every node, and the iptables chains KUBE-SERVICES, KUBE-SVC and KUBE-SEP read straight from a node, with the random probabilities that share the load and the DNAT to the Pod. Then a Pod fails its readiness probe and leaves the rules without being deleted, and we see what the nftables mode changes. Lesson 8 of Kubernetes Deep Dive.
 

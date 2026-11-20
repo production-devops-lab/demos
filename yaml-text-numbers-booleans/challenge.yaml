@@ -1,0 +1,4 @@
+app: acme-app
+release: 2.10
+debug: no
+owner: ops

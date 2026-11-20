@@ -59,7 +59,7 @@ flowchart LR
 
 A recipe can say: turn the oven up by twenty degrees, and twice is too hot. Or it says: the oven must be at two hundred, and twice is fine.
 
-- `idempotent`: Run it once or ten times: the same result (like "the oven must be at 200", not "turn it up by 20")
+- `idempotent — Run it once or ten times: the same result (like "the oven must be at 200", not "turn it up by 20")`: 
 The word for the second kind is idempotent. Run it once or ten times, and you get the same result.
 
 Here is our playbook from lesson seven. Look at what it really says.
@@ -126,7 +126,7 @@ Here is why: each module looks first. If the server is already right, it does no
 
 ### Drift
 
-- `drift`: Servers that slowly become different from each other (like one kitchen that changed the recipe a little)
+- `drift — Servers that slowly become different from each other (like one kitchen that changed the recipe a little)`: 
 Remember drift from lesson one? Servers that should be the same slowly become different. Let us make one drift, on purpose.
 
 ```

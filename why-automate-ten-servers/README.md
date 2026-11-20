@@ -28,7 +28,7 @@ This is lesson one of Ansible from Zero. First, one small change on ten servers.
 
 ### Ten servers
 
-- `server`: A computer that runs programs for others, all day long (like a restaurant kitchen: it cooks, the customers only see the food)
+- `server — A computer that runs programs for others, all day long (like a restaurant kitchen: it cooks, the customers only see the food)`: 
 First word: server. A server is a computer that runs programs for others, all day long. Think of a restaurant kitchen.
 
 **Ten servers, one app**
@@ -78,7 +78,7 @@ Five steps, times ten servers, makes fifty steps. At a few minutes per server, t
 
 And people are not machines. On server four, you make a typo. Server seven is forgotten, because the phone rang. On server nine, you make a slightly different change. And afterwards, nobody knows exactly what was done.
 
-- `drift`: Servers that slowly become different from each other (like ten kitchens that each change the recipe a little)
+- `drift — Servers that slowly become different from each other (like ten kitchens that each change the recipe a little)`: 
 This has a name: drift. Servers that should be the same slowly become different. Like ten kitchens that each change the recipe a little.
 
 **A few months later**
@@ -104,7 +104,7 @@ So far: one change on ten servers means fifty steps by hand. People slip. There 
 
 ### Automation
 
-- `automation`: Letting a program repeat a job for you, the same way every time (like a recipe card: written once, every kitchen cooks the same dish)
+- `automation — Letting a program repeat a job for you, the same way every time (like a recipe card: written once, every kitchen cooks the same dish)`: 
 New word: automation. It means letting a program repeat a job for you, the same way every time. Think of a recipe card.
 
 **Write it once, run it everywhere**
@@ -129,7 +129,7 @@ First, the same result on every server. Second, it takes minutes, not an hour. T
 
 ### Ansible
 
-- `Ansible`: A free tool that does the same job on many servers for you (like a head chef who sends one recipe card to every kitchen)
+- `Ansible — A free tool that does the same job on many servers for you (like a head chef who sends one recipe card to every kitchen)`: 
 The tool of this course is Ansible. It does the same job on many servers, for you. Think of a head chef, sending one recipe card to every kitchen.
 
 **The same change, with Ansible**

@@ -28,7 +28,7 @@ This is lesson three of Kubernetes from Zero. First, what a cluster is. Then the
 
 ### The cluster
 
-- `cluster`: A group of computers that work together as one (like a restaurant group: many kitchens, one manager)
+- `cluster — A group of computers that work together as one (like a restaurant group: many kitchens, one manager)`: 
 First word: cluster. A cluster is a group of computers that work together as one. Think of a restaurant group: many kitchens, one manager.
 
 **A cluster, from far away**
@@ -49,12 +49,12 @@ flowchart LR
 
 From far away, a cluster looks like one big computer. You ask it to run acme app. You do not pick the computer.
 
-- `node`: One computer inside the cluster (like one kitchen of the restaurant group)
+- `node — One computer inside the cluster (like one kitchen of the restaurant group)`: 
 Each computer in a cluster is called a node. One node is one kitchen of the restaurant group.
 
 ### The kitchens
 
-- `worker node`: A node where your containers run (like a kitchen where the cooking really happens)
+- `worker node — A node where your containers run (like a kitchen where the cooking really happens)`: 
 Most nodes are worker nodes. This is where your containers run. It is the kitchen where the cooking really happens.
 
 **Worker nodes run the containers**
@@ -75,7 +75,7 @@ Here are two worker nodes. They run three copies of acme app. Remember from less
 
 ### The office
 
-- `control plane`: The part of Kubernetes that decides and watches (like the manager's office: it takes orders, it does not cook)
+- `control plane — The part of Kubernetes that decides and watches (like the manager's office: it takes orders, it does not cook)`: 
 Now the most important word: control plane. It is the part of Kubernetes that decides and watches. Think of the manager's office.
 
 **One office, two kitchens**
@@ -110,10 +110,10 @@ So far: a cluster is a group of computers working as one. Worker nodes run the a
 
 ### The loop
 
-- `desired state`: What you asked for, written down (like the order on the board: 3 plates of acme-app)
+- `desired state — What you asked for, written down (like the order on the board: 3 plates of acme-app)`: 
 New word: desired state. It is what you asked for, written down. Like the order on the board: three plates of acme app.
 
-- `actual state`: What is really running, right now (like the plates that are really cooking)
+- `actual state — What is really running, right now (like the plates that are really cooking)`: 
 And its partner: actual state. It is what is really running, right now. The plates that are really cooking.
 
 **Desired and actual: they match**
@@ -131,7 +131,7 @@ flowchart LR
 
 The office compares the two: three copies wanted, three running. They are the same, so there is nothing to do.
 
-- `control loop`: Compare what you want with what is, fix the difference, repeat (like a thermostat: you set 21 degrees, it heats until the room gets there)
+- `control loop — Compare what you want with what is, fix the difference, repeat (like a thermostat: you set 21 degrees, it heats until the room gets there)`: 
 This checking never stops: it is called a control loop. Think of a thermostat. You set twenty one degrees, and it heats until the room gets there.
 
 **The loop: compare, then correct**

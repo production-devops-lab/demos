@@ -32,7 +32,7 @@ This is lesson six of Kubernetes from Zero. First, a standing order, called a De
 
 ### The Deployment
 
-- `Deployment`: An order to keep a number of identical Pods running, always (like a standing order: three trays of acme-app, every day)
+- `Deployment — An order to keep a number of identical Pods running, always (like a standing order: three trays of acme-app, every day)`: 
 New word: Deployment. A Deployment keeps a number of identical Pods running, always. It is a standing order: three trays, every day.
 
 **One order, three Pods**
@@ -88,7 +88,7 @@ spec:
 
 Kind Deployment. Deployments use the form apps slash v one. Its name is acme app, like our Pod in lesson five. Replicas is the number of copies we want: three.
 
-- `label`: A name tag on a Pod, such as app: acme-app (like a sticker on each tray: this one is acme-app)
+- `label — A name tag on a Pod, such as app: acme-app (like a sticker on each tray: this one is acme-app)`: 
 To know which Pods are its own, the Deployment uses labels. A label is a name tag, like a sticker on each tray.
 
 ```

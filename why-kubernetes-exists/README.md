@@ -28,7 +28,7 @@ This is lesson one of Kubernetes from Zero. First, one app on one computer. Then
 
 ### One server
 
-- `server`: A computer that runs a program for others, all day long (like a restaurant kitchen: it cooks, the customers only see the food)
+- `server — A computer that runs a program for others, all day long (like a restaurant kitchen: it cooks, the customers only see the food)`: 
 First word: server. A server is a computer that runs a program for others, all day. Think of a kitchen: it cooks, and customers only see the food.
 
 **One app, one server**
@@ -84,7 +84,7 @@ You decide which server has room for a new copy. A copy stops at three in the mo
 
 ### Containers
 
-- `container`: An app packed together with everything it needs to run (like a meal kit: everything in one box, the same dish in any kitchen)
+- `container — An app packed together with everything it needs to run (like a meal kit: everything in one box, the same dish in any kitchen)`: 
 One more word: container. A container is an app packed with everything it needs. Like a meal kit, it cooks the same in any kitchen.
 
 **Containers make copies easy**
@@ -107,7 +107,7 @@ So far: one server breaks, gets busy, and stops for updates. Many servers fix th
 
 ### The idea
 
-- `Kubernetes`: A program that runs your containers on many servers, and keeps them running (like a manager of many kitchens: you order, it assigns the cooks)
+- `Kubernetes — A program that runs your containers on many servers, and keeps them running (like a manager of many kitchens: you order, it assigns the cooks)`: 
 That program is Kubernetes. It runs your containers on many servers, and keeps them running. Think of a manager of many kitchens.
 
 **You say what you want**

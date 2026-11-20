@@ -1,0 +1,4 @@
+# acme-app settings, for the lab
+app: acme-app
+port: 8080  # the door number
+replicas: 3

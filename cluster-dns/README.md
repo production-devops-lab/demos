@@ -2,7 +2,7 @@
 
 ![Kubernetes Cluster DNS: CoreDNS, Search Domains and the ndots Trap](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/MpY4h2UqGC0
 
 Inside a Pod the name web just works; from another namespace it fails, and every outside name quietly costs several extra lookups. On a real cluster we read CoreDNS and its Corefile, query Service, SRV, headless and Pod records with dig, open a Pod's resolv.conf to see the search domains and ndots 5, follow a lookup through the search list, reach a Service in another namespace, tune a Pod with dnsPolicy and dnsConfig, and finish with a DNS debugging checklist. Lesson 9 of Kubernetes Deep Dive.
 

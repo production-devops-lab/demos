@@ -28,10 +28,10 @@ This is lesson two of Ansible from Zero. First, the two sides: where you type, a
 
 ### Two sides
 
-- `control node`: The computer where Ansible is installed, and where you type (like the head chef's desk: every recipe card starts here)
+- `control node — The computer where Ansible is installed, and where you type (like the head chef's desk: every recipe card starts here)`: 
 First word: control node. It is the computer where Ansible is installed, and where you type. Think of the head chef's desk.
 
-- `managed node`: A server that Ansible looks after (like a kitchen that receives the recipe cards)
+- `managed node — A server that Ansible looks after (like a kitchen that receives the recipe cards)`: 
 Second word: managed node. It is a server that Ansible looks after. A kitchen that receives the recipe cards.
 
 **One control node, two managed nodes**
@@ -51,7 +51,7 @@ Here is the picture of this course. One control node, and two managed nodes, cal
 
 ### The line
 
-- `SSH`: A safe, locked connection from one computer to another (like a private phone line to each kitchen)
+- `SSH — A safe, locked connection from one computer to another (like a private phone line to each kitchen)`: 
 How do they talk? With SSH, a safe, locked connection from one computer to another. Like a private phone line to each kitchen.
 
 **They talk over SSH**
@@ -71,10 +71,10 @@ Almost every Linux server already has an SSH server. It listens for calls. Ansib
 
 ### One task
 
-- `module`: A small program that does one job on a server (like a standard step every cook knows: preheat the oven)
+- `module — A small program that does one job on a server (like a standard step every cook knows: preheat the oven)`: 
 What travels on the line? A module: a small program that does one job on a server. Like a standard step: preheat the oven.
 
-- `Python`: A programming language that most Linux servers already have (like a language every cook, in every kitchen, speaks)
+- `Python — A programming language that most Linux servers already have (like a language every cook, in every kitchen, speaks)`: 
 Modules are written in Python. It is a programming language that most Linux servers already have. A language every cook speaks.
 
 ### So far
@@ -114,7 +114,7 @@ With two servers, Ansible does these four steps on both, at the same time. Each 
 
 Now the answer from the start. What stays on the server? No Ansible is installed on it. No program is left running. The module is deleted after the job. Only the result stays: the change you asked for.
 
-- `agentless`: Nothing extra to install or keep running on the servers (like kitchens that only need a phone, no robot cook inside)
+- `agentless — Nothing extra to install or keep running on the servers (like kitchens that only need a phone, no robot cook inside)`: 
 This has a name: agentless. Nothing extra is installed or kept running on the servers. The kitchens only need a phone.
 
 **What a managed node needs**

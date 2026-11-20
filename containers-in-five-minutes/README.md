@@ -31,12 +31,12 @@ This is lesson two of Kubernetes from Zero. First, the box: an image. Then the c
 
 ### Image
 
-- `image`: An app and everything it needs, packed and ready to start (like a sealed meal kit: the recipe and the ingredients in one box)
+- `image — An app and everything it needs, packed and ready to start (like a sealed meal kit: the recipe and the ingredients in one box)`: 
 First word: image. An image is an app and everything it needs, packed and ready. Think of a sealed meal kit: recipe and ingredients in one box.
 
 ### Container
 
-- `container`: An image that is running (like the meal kit being cooked: the dish on the stove)
+- `container — An image that is running (like the meal kit being cooked: the dish on the stove)`: 
 In lesson one we met the container. Now we can say it exactly: a container is an image that is running. The meal kit, being cooked.
 
 **One image, many containers**
@@ -57,7 +57,7 @@ From one image you can start many containers. They all cook the same dish, becau
 
 ### Registry
 
-- `registry`: A place online that stores images, ready to download (like the pantry: the kits wait there until a kitchen asks for one)
+- `registry — A place online that stores images, ready to download (like the pantry: the kits wait there until a kitchen asks for one)`: 
 Third word: registry. A registry stores images online, ready to download. It is the pantry: the kits wait there until a kitchen asks.
 
 **From the pantry to the stove**
@@ -83,7 +83,7 @@ So far: an image is the packed app, a sealed kit. A container is an image that i
 
 ### One command
 
-- `Docker`: A program that downloads images and runs containers (like the cook: takes a kit from the pantry, and cooks it)
+- `Docker — A program that downloads images and runs containers (like the cook: takes a kit from the pantry, and cooks it)`: 
 To run a container, we use a program called Docker. It downloads images and runs containers. Docker is the cook.
 
 ```console

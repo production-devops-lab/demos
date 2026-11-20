@@ -5,6 +5,7 @@
 **Video:** https://youtu.be/Fih0METh0Lo
 
 What the EX294 exam covers, area by area, how a practical exam works (tasks checked on the systems, after a reboot, with no internet), and which RHCSA skills you need first. Then we build the practice lab live: a control node and two managed nodes, node01 and node02, with an automation user, SSH keys and passwordless sudo, all on one Linux machine. We prove it with ssh and our first Ansible ping. The lab script is in the demos repo.
+Correction: on the real EX294, your playbooks are applied to freshly installed systems, so the playbooks themselves are graded, not only the end state you left behind. Updated, step-by-step version: https://youtu.be/csftUO5-KLg (the exam, explained simply) and https://youtu.be/kgIILpgiMD0 (build the practice lab).
 
 ## Files in this folder
 

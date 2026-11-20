@@ -32,7 +32,7 @@ This is lesson four of Ansible from Zero. First, the inventory: the list of serv
 
 ### The inventory
 
-- `inventory`: The list of servers that Ansible looks after (like the list of kitchens, on the wall of the head chef's office)
+- `inventory — The list of servers that Ansible looks after (like the list of kitchens, on the wall of the head chef's office)`: 
 First word: inventory. It is the list of servers that Ansible looks after. Like the list of kitchens on the head chef's wall.
 
 Here is our whole inventory. Three lines, in a file called inventory dot ini.
@@ -45,7 +45,7 @@ node02
 
 The first line is a name, in square brackets. The next lines are our two practice servers.
 
-- `group`: One name for several servers, to talk to them together (like "the pizza kitchens": one name, many kitchens)
+- `group — One name for several servers, to talk to them together (like "the pizza kitchens": one name, many kitchens)`: 
 Second word: group. A group is one name for several servers. Like the pizza kitchens: one name, many kitchens.
 
 ```
@@ -68,7 +68,7 @@ node02
 
 ### The settings file
 
-- `ansible.cfg`: Ansible's settings file, read first, in the folder where you type (like the notebook on the head chef's desk)
+- `ansible.cfg — Ansible's settings file, read first, in the folder where you type (like the notebook on the head chef's desk)`: 
 How does Ansible find the list? With its settings file, ansible dot cfg. Ansible reads it first, in the folder where you type.
 
 ```

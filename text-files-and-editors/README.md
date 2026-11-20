@@ -2,7 +2,7 @@
 
 ![Editing Files in Linux: vim Essentials, nano and Config Files](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/gkKHpBAjBOg
 
 You open a config file in vim, you cannot type, and you cannot get out. In lesson 10 we make editing calm: why config files are plain text, nano in one screen, vim's modes, the keys that save and quit, search and substitute with :%s, the same edit done from a script with vim -es, a backup and diff before every change, and the Windows line endings that break a config. Up to date for RHEL/AlmaLinux 9 and Ubuntu 24.04. Lesson 10 of Linux from User to Server Admin.
 

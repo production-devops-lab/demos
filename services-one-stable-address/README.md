@@ -33,7 +33,7 @@ This is lesson seven of Kubernetes from Zero. First, the problem: new Pods get n
 
 ### The problem
 
-- `IP address`: A number that finds one machine, or one Pod, on a network (like a phone number: dial it, and the right kitchen answers)
+- `IP address — A number that finds one machine, or one Pod, on a network (like a phone number: dial it, and the right kitchen answers)`: 
 New word: IP address. It is a number that finds one machine, or one Pod, on a network. Like a phone number.
 
 We start the Deployment from lesson six.
@@ -78,7 +78,7 @@ Every address changed. The old numbers now ring nowhere.
 
 ### The Service
 
-- `Service`: One fixed name and address in front of a group of Pods (like the restaurant's one phone number: whoever is on shift answers)
+- `Service — One fixed name and address in front of a group of Pods (like the restaurant's one phone number: whoever is on shift answers)`: 
 The fix is a Service. A Service is one fixed name and address in front of a group of Pods. Like a restaurant's one phone number.
 
 **One number, many cooks**
@@ -100,7 +100,7 @@ flowchart LR
 
 Visitors call the Service. It passes each call to a Pod with its label. When Pods change, it follows them.
 
-- `port`: A numbered door on a machine: each program listens at one (like the extension after the phone number)
+- `port — A numbered door on a machine: each program listens at one (like the extension after the phone number)`: 
 One more word: port, a numbered door on a machine. Web servers usually listen at door eighty.
 
 ### The file

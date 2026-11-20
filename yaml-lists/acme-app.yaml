@@ -1,0 +1,5 @@
+app: acme-app
+port: 8080
+servers:
+  - node01
+  - node02

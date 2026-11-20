@@ -77,7 +77,7 @@ So far: you can list servers, ask them a question, and change them. You can writ
 
 ### The RHCE course
 
-- `RHCE`: A Red Hat exam: you automate real tasks, with Ansible, on real servers (like a cooking exam in a real kitchen, not a quiz on paper)
+- `RHCE — A Red Hat exam: you automate real tasks, with Ansible, on real servers (like a cooking exam in a real kitchen, not a quiz on paper)`: 
 New word: RHCE, a Red Hat exam. You automate real tasks with Ansible, on real servers. Like a cooking exam in a real kitchen.
 
 The next course adds variables and facts: values that change from server to server. Become: admin rights, for places like slash opt. Loops and conditions: repeat a task, or skip it. Templates and roles: files with blanks to fill, and jobs you can reuse. And Vault, to keep secrets locked.

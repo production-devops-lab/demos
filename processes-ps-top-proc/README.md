@@ -2,7 +2,7 @@
 
 ![Linux Processes: ps, top, PID and PPID, /proc and Process States](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/S2wUDmImysI
 
 Every command you run becomes a process with a number, a parent and a state, and some processes are dead but still in the table. In lesson 12 we look at the processes of a small acme-app worker: PID and PPID, ps with your own columns, pgrep and pstree, the /proc folder of a process, top in batch mode, what the states R, S, D, T and Z mean, and a real zombie, made and cleaned up live. Up to date for RHEL/AlmaLinux 9 and Ubuntu 24.04. Lesson 12 of Linux from User to Server Admin.
 

@@ -1,0 +1,10 @@
+---
+- name: Prepare acme-app
+  hosts: [node01, node02]
+  remote_user: ops
+  gather_facts: false
+  tasks:
+    - name: Create the app folder
+      ansible.builtin.file:
+        path: /tmp/acme-app
+        state: directory
