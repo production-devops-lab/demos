@@ -2,7 +2,7 @@
 
 ![What Is Here? Listing a Folder with ls (No Experience Needed)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/6gc0EF4u0H4
 
 You know where you are, but what is in this folder? This lesson of Linux from Zero adds one command, ls, that lists what a folder holds. We tell files and folders apart, draw the answer on our cabinet of folders, and then look inside another folder without walking into it. No experience needed: every new word is explained on screen, and every command runs for real. The challenge and its solution are in the demos repo.
 

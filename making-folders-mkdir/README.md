@@ -2,7 +2,7 @@
 
 ![Making Folders in the Linux Terminal: mkdir (No Experience Needed)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/E2sdvqy5IHQ
 
 Until now you only looked. This lesson of Linux from Zero adds one command, mkdir, and you change the cabinet for the first time: you make a folder, check it with ls, make a folder inside it, and see what happens when you make the same folder twice. No experience needed: every new word is explained on screen, and every command runs for real. The challenge and its solution are in the demos repo.
 

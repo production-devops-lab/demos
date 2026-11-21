@@ -2,7 +2,7 @@
 
 ![Moving Around in the Linux Terminal: cd (No Experience Needed)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/DpQi_sZ8T0U
 
 So far you looked at folders from your home folder. This lesson of Linux from Zero adds one command, cd, to walk into a folder, back out to the folder above, two folders deep, and straight home from anywhere. The prompt shows where you are after every move, and pwd confirms it. No experience needed: every new word is explained on screen, and every command runs for real. The challenge and its solution are in the demos repo.
 

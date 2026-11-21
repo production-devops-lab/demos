@@ -2,7 +2,7 @@
 
 ![Asking a Linux Command for Help: --help (No Experience Needed)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/sjd9UlaAzec
 
 Nobody remembers every option of every command, and engineers look things up many times a day. This lesson of Linux from Zero adds one new piece, --help, that makes a command explain itself. We read the help page of mkdir line by line, find the answer to a question from the last lesson, use the help of cat to answer a new one, and see what to do when --help does not work, for example on a Mac. No experience needed: every new word is explained on screen, and every command runs for real. The challenge and its solution are in the demos repo.
 

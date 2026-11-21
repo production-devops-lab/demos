@@ -27,7 +27,7 @@ Every folder matches one video. Everything runs in a throwaway directory or cont
 | [The API Behind kubectl: See the Requests, Then Send Your Own](https://youtu.be/ZMJbws9InMs) | [`api-behind-kubectl/`](api-behind-kubectl/) |
 | [ARP Explained: Who Has This IP? Request, Reply and the Neighbour Cache, in Real Captures](https://youtu.be/3RZGOvTo8wk) | [`arp/`](arp/) |
 | Asking Well: Context, Limits, Examples (AI for Ops: the Safe Basics) | [`asking-an-ai-well/`](asking-an-ai-well/) |
-| Asking a Linux Command for Help: --help (No Experience Needed) | [`asking-for-help/`](asking-for-help/) |
+| [Asking a Linux Command for Help: --help (No Experience Needed)](https://youtu.be/sjd9UlaAzec) | [`asking-for-help/`](asking-for-help/) |
 | [401 or 403? The Three Gates of Every Kubernetes API Request](https://youtu.be/sEjGaLVMpu8) | [`authn-authz-admission/`](authn-authz-admission/) |
 | [Automation: Let the Computer Repeat It (DevOps from Zero, No Experience Needed)](https://youtu.be/r-csTuLUyBs) | [`automation-let-the-computer-repeat/`](automation-let-the-computer-repeat/) |
 | [Your Bash Scripts Fail Silently. Fix It With One Line (set -euo pipefail)](https://youtu.be/7fyJngojTyQ) | [`bash-strict-mode/`](bash-strict-mode/) |
@@ -85,8 +85,8 @@ Every folder matches one video. Everything runs in a throwaway directory or cont
 | Logs and Errors: Let It Explain, You Decide (AI for Ops: the Safe Basics) | [`logs-and-errors-you-decide/`](logs-and-errors-you-decide/) |
 | [Is Production Healthy? Logs, Metrics and Alerts (DevOps from Zero, No Experience Needed)](https://youtu.be/nCQOsEF2hcc) | [`logs-metrics-alerts/`](logs-metrics-alerts/) |
 | Looking Back: git log (Git from Zero, No Experience Needed) | [`looking-back-git-log/`](looking-back-git-log/) |
-| Making Folders in the Linux Terminal: mkdir (No Experience Needed) | [`making-folders-mkdir/`](making-folders-mkdir/) |
-| Moving Around in the Linux Terminal: cd (No Experience Needed) | [`moving-around-cd/`](moving-around-cd/) |
+| [Making Folders in the Linux Terminal: mkdir (No Experience Needed)](https://youtu.be/E2sdvqy5IHQ) | [`making-folders-mkdir/`](making-folders-mkdir/) |
+| [Moving Around in the Linux Terminal: cd (No Experience Needed)](https://youtu.be/DpQi_sZ8T0U) | [`moving-around-cd/`](moving-around-cd/) |
 | [Ansible Plays, become and serial: One Playbook, Many Groups, Rolling Batches](https://youtu.be/NYSKGVOSk7Y) | [`multiple-plays-and-become/`](multiple-plays-and-become/) |
 | [Is It the Network, TLS or the App? 3 Commands That Tell You](https://youtu.be/mdFgxKXBI8g) | [`network-tls-or-app/`](network-tls-or-app/) |
 | Never Paste Secrets: What Not to Share with AI (AI for Ops: the Safe Basics) | [`never-paste-secrets/`](never-paste-secrets/) |
@@ -102,7 +102,7 @@ Every folder matches one video. Everything runs in a throwaway directory or cont
 | [Kubernetes from Zero, Putting It Together: a Whole App From One File](https://youtu.be/gwV3gvYsIPE) | [`putting-it-together-and-where-next/`](putting-it-together-and-where-next/) |
 | [Kubernetes ResourceQuota and LimitRange: Why Your Pods Never Start](https://youtu.be/M9SgQ6mohgc) | [`quotas-and-limitranges/`](quotas-and-limitranges/) |
 | Reading a Certificate (HTTPS and Certificates, No Experience Needed) | [`reading-a-certificate/`](reading-a-certificate/) |
-| Reading a File in the Linux Terminal: cat (No Experience Needed) | [`reading-a-file-cat/`](reading-a-file-cat/) |
+| [Reading a File in the Linux Terminal: cat (No Experience Needed)](https://youtu.be/ddac_s75KIA) | [`reading-a-file-cat/`](reading-a-file-cat/) |
 | Mistakes Are Safe: Reading Linux Error Messages (No Experience Needed) | [`reading-error-messages/`](reading-error-messages/) |
 | Reading Real Files: a Kubernetes Pod and an Ansible Playbook (YAML from Zero, No Experience Needed) | [`reading-real-yaml-files/`](reading-real-yaml-files/) |
 | [ReplicaSets and Deployments: The Control Loop That Replaces Your Pods](https://youtu.be/VDJOnuixJwc) | [`replicasets-control-loop/`](replicasets-control-loop/) |
@@ -143,10 +143,10 @@ Every folder matches one video. Everything runs in a throwaway directory or cont
 | What an AI Assistant Is, and What It Is Not (AI for Ops: the Safe Basics) | [`what-an-ai-assistant-is/`](what-an-ai-assistant-is/) |
 | [What DevOps Actually Means, Explained Simply (DevOps from Zero, No Experience Needed)](https://youtu.be/IjJT5EMIXSY) | [`what-devops-actually-means/`](what-devops-actually-means/) |
 | What Happens When You Open a Website (How the Internet Works, No Experience Needed) | [`what-happens-when-you-open-a-website/`](what-happens-when-you-open-a-website/) |
-| What Is Here? Listing a Folder with ls (No Experience Needed) | [`what-is-here-ls/`](what-is-here-ls/) |
+| [What Is Here? Listing a Folder with ls (No Experience Needed)](https://youtu.be/6gc0EF4u0H4) | [`what-is-here-ls/`](what-is-here-ls/) |
 | [What Linux Really Is: Kernel, Distributions and Which One to Pick](https://youtu.be/Z2CeWyJcuKk) | [`what-linux-really-is/`](what-linux-really-is/) |
 | What the Padlock Means (HTTPS and Certificates, No Experience Needed) | [`what-the-padlock-means/`](what-the-padlock-means/) |
-| Where Am I? Your First Linux Command, pwd (No Experience Needed) | [`where-am-i-pwd/`](where-am-i-pwd/) |
+| [Where Am I? Your First Linux Command, pwd (No Experience Needed)](https://youtu.be/5yPFsSyusTU) | [`where-am-i-pwd/`](where-am-i-pwd/) |
 | Who Signs Certificates (HTTPS and Certificates, No Experience Needed) | [`who-signs-certificates/`](who-signs-certificates/) |
 | Why AI Answers Can Be Wrong and Sound Right (AI for Ops: the Safe Basics) | [`why-ai-sounds-right-when-wrong/`](why-ai-sounds-right-when-wrong/) |
 | [Why Automate? Ten Servers by Hand (Ansible from Zero, No Experience Needed)](https://youtu.be/ghkJtTYfEFs) | [`why-automate-ten-servers/`](why-automate-ten-servers/) |

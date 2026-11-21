@@ -2,7 +2,7 @@
 
 ![Reading a File in the Linux Terminal: cat (No Experience Needed)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/ddac_s75KIA
 
 You can find files now, but what do they say? This lesson of Linux from Zero adds one command, cat, that prints a file on the screen. We read a short note, then a to-do list, then the real log file of a small app, line by line. No experience needed: every new word is explained on screen, and every command runs for real. The challenge and its solution are in the demos repo.
 

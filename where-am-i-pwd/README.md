@@ -2,7 +2,7 @@
 
 ![Where Am I? Your First Linux Command, pwd (No Experience Needed)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/5yPFsSyusTU
 
 In a terminal you cannot see your folders, so the first question is always the same: where am I? This lesson of Linux from Zero answers it with your first command, pwd. We draw the file system as a cabinet of folders, find your home folder, and read the answer, a path, from left to right. Then we see that the prompt was telling you all along. No experience needed: every new word is explained on screen, and every command runs for real. The challenge and its solution are in the demos repo.
 
