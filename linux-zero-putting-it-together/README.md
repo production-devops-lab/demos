@@ -2,7 +2,7 @@
 
 ![Putting It Together: Your First Terminal Mission (No Experience Needed)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/Jei3xD7To7Y
 
 Nine lessons ago you had never opened a terminal. In this last lesson of Linux from Zero, the commands you know work together on one small mission from a to-do list: find an app's log, read it, and make a folder for a report, with pwd, ls, cd, cat and mkdir. Then your safety net for when you get stuck, with --help and error messages, how to practice, and where to go next: the course Linux from User to Server Admin. No experience needed, every command runs for real. The final challenge and its solution are in the demos repo.
 

@@ -80,7 +80,7 @@ Every folder matches one video. Everything runs in a throwaway directory or cont
 | [kubeconfig and Contexts: Never Run kubectl on the Wrong Cluster](https://youtu.be/nzbVyvq2rYY) | [`kubeconfig-contexts/`](kubeconfig-contexts/) |
 | [Stop Scrolling kubectl Output: custom-columns, jsonpath and --sort-by](https://youtu.be/lHxPHbiN8dc) | [`kubectl-output-anatomy/`](kubectl-output-anatomy/) |
 | [Liveness vs Readiness vs Startup Probes: Stop Killing Healthy Pods](https://youtu.be/IBvgdNBOyB8) | [`kubernetes-probes/`](kubernetes-probes/) |
-| Putting It Together: Your First Terminal Mission (No Experience Needed) | [`linux-zero-putting-it-together/`](linux-zero-putting-it-together/) |
+| [Putting It Together: Your First Terminal Mission (No Experience Needed)](https://youtu.be/Jei3xD7To7Y) | [`linux-zero-putting-it-together/`](linux-zero-putting-it-together/) |
 | [A Log Health Check Script Your Monitoring Can Trust (Exit Codes 0, 1, 2)](https://youtu.be/dDuTM5zzXaY) | [`log-health-check/`](log-health-check/) |
 | Logs and Errors: Let It Explain, You Decide (AI for Ops: the Safe Basics) | [`logs-and-errors-you-decide/`](logs-and-errors-you-decide/) |
 | [Is Production Healthy? Logs, Metrics and Alerts (DevOps from Zero, No Experience Needed)](https://youtu.be/nCQOsEF2hcc) | [`logs-metrics-alerts/`](logs-metrics-alerts/) |
@@ -103,7 +103,7 @@ Every folder matches one video. Everything runs in a throwaway directory or cont
 | [Kubernetes ResourceQuota and LimitRange: Why Your Pods Never Start](https://youtu.be/M9SgQ6mohgc) | [`quotas-and-limitranges/`](quotas-and-limitranges/) |
 | Reading a Certificate (HTTPS and Certificates, No Experience Needed) | [`reading-a-certificate/`](reading-a-certificate/) |
 | [Reading a File in the Linux Terminal: cat (No Experience Needed)](https://youtu.be/ddac_s75KIA) | [`reading-a-file-cat/`](reading-a-file-cat/) |
-| Mistakes Are Safe: Reading Linux Error Messages (No Experience Needed) | [`reading-error-messages/`](reading-error-messages/) |
+| [Mistakes Are Safe: Reading Linux Error Messages (No Experience Needed)](https://youtu.be/WBxiIK5GOJA) | [`reading-error-messages/`](reading-error-messages/) |
 | Reading Real Files: a Kubernetes Pod and an Ansible Playbook (YAML from Zero, No Experience Needed) | [`reading-real-yaml-files/`](reading-real-yaml-files/) |
 | [ReplicaSets and Deployments: The Control Loop That Replaces Your Pods](https://youtu.be/VDJOnuixJwc) | [`replicasets-control-loop/`](replicasets-control-loop/) |
 | Repository, Commit, History: Drawn (Git from Zero, No Experience Needed) | [`repository-commit-history-drawn/`](repository-commit-history-drawn/) |

@@ -2,7 +2,7 @@
 
 ![Mistakes Are Safe: Reading Linux Error Messages (No Experience Needed)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/WBxiIK5GOJA
 
 A strange message appears, and it feels like you broke something. You almost certainly did not. In this lesson of Linux from Zero we make four common mistakes on purpose, with commands you already know, and read every error message in three parts: who complains, about what, and why. Then the one question that fixes most of them. No experience needed: every new word is explained on screen, and every error is real. The challenge and its solution are in the demos repo.
 
