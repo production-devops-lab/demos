@@ -2,7 +2,7 @@
 
 ![YAML Keys and Values: the Colon and the Space (YAML from Zero, No Experience Needed)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/gpP7KMUjj04
 
 Almost every line of a YAML file is a key and a value, and one missing space can break the whole file. This lesson of YAML from Zero takes one line apart, piece by piece: the key, the colon, the space and the value. Then we read a small config file line by line, see what a program does with it, find the space that breaks it, and learn why Port and port are two different keys. No terminal, nothing to install, no experience needed. Every new word is explained on screen. The files, the challenge and its solution are in the demos repo.
 

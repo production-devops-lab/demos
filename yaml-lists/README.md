@@ -2,7 +2,7 @@
 
 ![YAML Lists: One Item per Dash (YAML from Zero, No Experience Needed)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/JE_cUSMFDG4
 
 One setting, many values: a list of servers, a list of ports. This lesson of YAML from Zero shows how YAML writes a list: a key with nothing after the colon, then one item per line, each after a dash and a space. We read a list piece by piece, see what the program gets, find the missing space that turns your list into one long piece of text without any error, and write the same list on one line, in square brackets. No terminal, nothing to install, no experience needed. Every new word is explained on screen. The files, the challenge and its solution are in the demos repo.
 

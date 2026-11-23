@@ -137,7 +137,7 @@ Every folder matches one video. Everything runs in a throwaway directory or cont
 | [Saving Every Version: Version Control in One Picture (DevOps from Zero, No Experience Needed)](https://youtu.be/ofcOzjv-UW0) | [`version-control-in-one-picture/`](version-control-in-one-picture/) |
 | [VLANs, Bonding and Tunnels on Linux: the 802.1Q Tag, Failover and the MTU Tax](https://youtu.be/GwgKeZRzkCw) | [`vlans-bonding-and-tunnels/`](vlans-bonding-and-tunnels/) |
 | What a Certificate Proves (HTTPS and Certificates, No Experience Needed) | [`what-a-certificate-proves/`](what-a-certificate-proves/) |
-| What a Config File Is, Explained Simply (YAML from Zero, No Experience Needed) | [`what-a-config-file-is/`](what-a-config-file-is/) |
+| [What a Config File Is, Explained Simply (YAML from Zero, No Experience Needed)](https://youtu.be/8R_rYwjGKic) | [`what-a-config-file-is/`](what-a-config-file-is/) |
 | What a Script Is: Commands in a File (Shell Scripting from Zero) | [`what-a-script-is/`](what-a-script-is/) |
 | [What a Terminal Is, and Why Engineers Use It (No Experience Needed)](https://youtu.be/XuecCojmTTw) | [`what-a-terminal-is/`](what-a-terminal-is/) |
 | What an AI Assistant Is, and What It Is Not (AI for Ops: the Safe Basics) | [`what-an-ai-assistant-is/`](what-an-ai-assistant-is/) |
@@ -153,12 +153,12 @@ Every folder matches one video. Everything runs in a throwaway directory or cont
 | [Why Kubernetes Exists: From One Server to Many (No Experience Needed)](https://youtu.be/oLztxycFOdg) | [`why-kubernetes-exists/`](why-kubernetes-exists/) |
 | Why Save Versions? The Problem Git Solves (Git from Zero, No Experience Needed) | [`why-save-versions/`](why-save-versions/) |
 | [Writing Shell Scripts: Arguments, if, case, Loops, Functions and Exit Codes](https://youtu.be/-84_S4OSUFg) | [`writing-shell-scripts/`](writing-shell-scripts/) |
-| YAML Comments and Multi-line Text: # - and › (YAML from Zero, No Experience Needed) | [`yaml-comments-and-multiline/`](yaml-comments-and-multiline/) |
+| [YAML Comments and Multi-line Text: # - and › (YAML from Zero, No Experience Needed)](https://youtu.be/PyhwXlLBxio) | [`yaml-comments-and-multiline/`](yaml-comments-and-multiline/) |
 | [YAML for Ansible in Five Minutes: Keys, Lists and Spaces (No Experience Needed)](https://youtu.be/SvjDtckCUU8) | [`yaml-for-ansible/`](yaml-for-ansible/) |
-| YAML Keys and Values: the Colon and the Space (YAML from Zero, No Experience Needed) | [`yaml-keys-and-values/`](yaml-keys-and-values/) |
-| YAML Lists: One Item per Dash (YAML from Zero, No Experience Needed) | [`yaml-lists/`](yaml-lists/) |
-| YAML Nesting: Why Spaces Matter (YAML from Zero, No Experience Needed) | [`yaml-nesting-and-spaces/`](yaml-nesting-and-spaces/) |
-| YAML Text, Numbers, True and False: When to Use Quotes (YAML from Zero, No Experience Needed) | [`yaml-text-numbers-booleans/`](yaml-text-numbers-booleans/) |
+| [YAML Keys and Values: the Colon and the Space (YAML from Zero, No Experience Needed)](https://youtu.be/gpP7KMUjj04) | [`yaml-keys-and-values/`](yaml-keys-and-values/) |
+| [YAML Lists: One Item per Dash (YAML from Zero, No Experience Needed)](https://youtu.be/JE_cUSMFDG4) | [`yaml-lists/`](yaml-lists/) |
+| [YAML Nesting: Why Spaces Matter (YAML from Zero, No Experience Needed)](https://youtu.be/7NwMrQP7Kgo) | [`yaml-nesting-and-spaces/`](yaml-nesting-and-spaces/) |
+| [YAML Text, Numbers, True and False: When to Use Quotes (YAML from Zero, No Experience Needed)](https://youtu.be/KxoHcMauBQ0) | [`yaml-text-numbers-booleans/`](yaml-text-numbers-booleans/) |
 | [Your Ansible Inventory: the List of Servers, ansible-inventory --graph (No Experience Needed)](https://youtu.be/9Ow1sKpmQYc) | [`your-ansible-inventory/`](your-ansible-inventory/) |
 | [Your First Ansible Ad Hoc Command: ansible all -m ping (No Experience Needed)](https://youtu.be/O-DsDxHKrOA) | [`your-first-ad-hoc-command/`](your-first-ad-hoc-command/) |
 | [Your First Ansible Playbook, Line by Line: ansible-playbook (No Experience Needed)](https://youtu.be/kQfmK4FlT-s) | [`your-first-ansible-playbook/`](your-first-ansible-playbook/) |

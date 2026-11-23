@@ -2,7 +2,7 @@
 
 ![YAML Comments and Multi-line Text: # | and › (YAML from Zero, No Experience Needed)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/PyhwXlLBxio
 
 Some lines of a YAML file are not for the program at all, and some values are too long for one line. This lesson of YAML from Zero shows comments, the notes for people after a hash sign, and how to switch a setting off without deleting it. Then the hash sign that silently empties a value, and the two ways to write long text: the bar keeps every line, the greater-than sign folds them into one. For each one you see exactly what the program reads. No terminal, nothing to install, no experience needed. Every new word is explained on screen. The files, the challenge and its solution are in the demos repo.
 

@@ -2,7 +2,7 @@
 
 ![What a Config File Is, Explained Simply (YAML from Zero, No Experience Needed)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/8R_rYwjGKic
 
 Every program needs settings: which port to answer on, how many copies to run, extra messages on or off. They live in a small text file called a config file. This first lesson of YAML from Zero shows, with pictures and one everyday comparison, what a setting is, why programs read their settings from a file, and the same four settings written in three formats: INI, JSON and YAML. Then you see why DevOps tools like Kubernetes and Ansible chose YAML. No terminal, nothing to install, no experience needed. Every new word is explained on screen. The files, the challenge and its solution are in the demos repo.
 

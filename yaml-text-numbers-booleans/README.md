@@ -2,7 +2,7 @@
 
 ![YAML Text, Numbers, True and False: When to Use Quotes (YAML from Zero, No Experience Needed)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/KxoHcMauBQ0
 
 In YAML you never say what kind a value is: YAML guesses. This lesson of YAML from Zero shows the three kinds of values, text, numbers and true or false, how YAML guesses which is which, and the days it guesses wrong: a version 1.10 that becomes 1.1, an id 007 that loses its zeros, a yes or a NO that some tools read as true or false. Then quotes fix every one of them, and four simple rules tell you when to use them. No terminal, nothing to install, no experience needed. Every new word is explained on screen. The files, the challenge and its solution are in the demos repo.
 

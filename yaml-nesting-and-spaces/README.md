@@ -2,7 +2,7 @@
 
 ![YAML Nesting: Why Spaces Matter (YAML from Zero, No Experience Needed)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/7NwMrQP7Kgo
 
 In YAML, the spaces at the start of a line decide what belongs to what. This lesson of YAML from Zero shows nesting, a group of settings under one key, and how YAML reads those spaces: same spaces, same group; more spaces, inside the line above; fewer spaces, the group is over. We break a file with one space too many, move a setting out of its group without any error, see why the Tab key is never allowed, and finish with a list of groups: the shape you will meet in every Kubernetes file. No terminal, nothing to install, no experience needed. The files, the challenge and its solution are in the demos repo.
 
