@@ -39,7 +39,7 @@ Every folder matches one video. Everything runs in a throwaway directory or cont
 | [Kubernetes Cluster DNS: CoreDNS, Search Domains and the ndots Trap](https://youtu.be/MpY4h2UqGC0) | [`cluster-dns/`](cluster-dns/) |
 | [CN Is Dead, SAN Rules: Why Your Browser Rejects a "Valid" Certificate](https://youtu.be/4VyL2i0PN-w) | [`cn-vs-san/`](cn-vs-san/) |
 | Common Browser Errors, Explained (HTTPS and Certificates, No Experience Needed) | [`common-browser-errors/`](common-browser-errors/) |
-| Common YAML Mistakes, and How to Spot Them with yamllint (YAML from Zero, No Experience Needed) | [`common-yaml-mistakes/`](common-yaml-mistakes/) |
+| [Common YAML Mistakes, and How to Spot Them with yamllint (YAML from Zero, No Experience Needed)](https://youtu.be/8hxBcURCN88) | [`common-yaml-mistakes/`](common-yaml-mistakes/) |
 | [What a Container Really Is: Namespaces and cgroups by Hand](https://youtu.be/i7dqLhTH69c) | [`containers-by-hand/`](containers-by-hand/) |
 | [Containers in Five Minutes: Image, Container, Registry (No Experience Needed)](https://youtu.be/knb2b9KIfmw) | [`containers-in-five-minutes/`](containers-in-five-minutes/) |
 | [Containers and Kubernetes Explained for Sysadmins (No Hype)](https://youtu.be/Z7t-x6k1-VM) | [`containers-kubernetes-intro/`](containers-kubernetes-intro/) |
@@ -104,7 +104,7 @@ Every folder matches one video. Everything runs in a throwaway directory or cont
 | Reading a Certificate (HTTPS and Certificates, No Experience Needed) | [`reading-a-certificate/`](reading-a-certificate/) |
 | [Reading a File in the Linux Terminal: cat (No Experience Needed)](https://youtu.be/ddac_s75KIA) | [`reading-a-file-cat/`](reading-a-file-cat/) |
 | [Mistakes Are Safe: Reading Linux Error Messages (No Experience Needed)](https://youtu.be/WBxiIK5GOJA) | [`reading-error-messages/`](reading-error-messages/) |
-| Reading Real Files: a Kubernetes Pod and an Ansible Playbook (YAML from Zero, No Experience Needed) | [`reading-real-yaml-files/`](reading-real-yaml-files/) |
+| [Reading Real Files: a Kubernetes Pod and an Ansible Playbook (YAML from Zero, No Experience Needed)](https://youtu.be/sQrZBF39Hhw) | [`reading-real-yaml-files/`](reading-real-yaml-files/) |
 | [ReplicaSets and Deployments: The Control Loop That Replaces Your Pods](https://youtu.be/VDJOnuixJwc) | [`replicasets-control-loop/`](replicasets-control-loop/) |
 | Repository, Commit, History: Drawn (Git from Zero, No Experience Needed) | [`repository-commit-history-drawn/`](repository-commit-history-drawn/) |
 | [Kubernetes Requests vs Limits: Why Pods Get OOMKilled (and Throttled)](https://youtu.be/nXlzXlAA7dw) | [`requests-limits-oomkilled/`](requests-limits-oomkilled/) |

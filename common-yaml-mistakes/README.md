@@ -2,7 +2,7 @@
 
 ![Common YAML Mistakes, and How to Spot Them with yamllint (YAML from Zero, No Experience Needed)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/8hxBcURCN88
 
 Some YAML mistakes stop the file with an error. Others hide: the file loads, but the program reads something you never meant. This lesson of YAML from Zero sorts the common mistakes into those two families, then runs the one command of the course, yamllint, a proofreader for YAML files, on a small broken config file. You learn to read its report line by line, see why the error points one line too low, fix the file in three rounds, and meet one new mistake: the same key written twice. No experience needed: every new word is explained on screen. The files, the setup guide, the challenge and its solution are in the demos repo.
 

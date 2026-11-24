@@ -2,7 +2,7 @@
 
 ![Reading Real Files: a Kubernetes Pod and an Ansible Playbook (YAML from Zero, No Experience Needed)](img/thumbnail.jpg)
 
-**Video:** coming soon on the [channel](https://www.youtube.com/@production-devops).
+**Video:** https://youtu.be/sQrZBF39Hhw
 
 You know every YAML rule you need. Now use them on real files. This last lesson of YAML from Zero reads two files from two real DevOps tools, line by line: a Kubernetes Pod manifest and an Ansible playbook. Keys and values, lists, groups inside lists, a short-form list, a boolean: everything from the course, in the files engineers write every day. Nothing to run, no cluster and no servers needed: we only read. Then choose your next course: Kubernetes from Zero or Ansible from Zero. Every new word is explained on screen. The files, the challenge and its solution are in the demos repo.
 
