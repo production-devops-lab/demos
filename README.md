@@ -133,6 +133,7 @@ Every folder matches one video. Everything runs in a throwaway directory or cont
 | Test Before You Trust: Run It Somewhere Safe (AI for Ops: the Safe Basics) | [`test-before-you-trust/`](test-before-you-trust/) |
 | [Editing Files in Linux: vim Essentials, nano and Config Files](https://youtu.be/gkKHpBAjBOg) | [`text-files-and-editors/`](text-files-and-editors/) |
 | [The Linux Filesystem Tree: /etc, /var, /proc, Paths and ls -l Explained](https://youtu.be/or3EGe7yHjk) | [`the-filesystem-tree/`](the-filesystem-tree/) |
+| The TLS 1.3 Handshake, Step by Step | [`tls13-handshake-step-by-step/`](tls13-handshake-step-by-step/) |
 | Try It: ping (How the Internet Works, No Experience Needed) | [`try-it-ping/`](try-it-ping/) |
 | [Saving Every Version: Version Control in One Picture (DevOps from Zero, No Experience Needed)](https://youtu.be/ofcOzjv-UW0) | [`version-control-in-one-picture/`](version-control-in-one-picture/) |
 | [VLANs, Bonding and Tunnels on Linux: the 802.1Q Tag, Failover and the MTU Tax](https://youtu.be/GwgKeZRzkCw) | [`vlans-bonding-and-tunnels/`](vlans-bonding-and-tunnels/) |
@@ -146,6 +147,7 @@ Every folder matches one video. Everything runs in a throwaway directory or cont
 | [What Is Here? Listing a Folder with ls (No Experience Needed)](https://youtu.be/6gc0EF4u0H4) | [`what-is-here-ls/`](what-is-here-ls/) |
 | [What Linux Really Is: Kernel, Distributions and Which One to Pick](https://youtu.be/Z2CeWyJcuKk) | [`what-linux-really-is/`](what-linux-really-is/) |
 | What the Padlock Means (HTTPS and Certificates, No Experience Needed) | [`what-the-padlock-means/`](what-the-padlock-means/) |
+| What TLS Really Protects (and What It Doesn't) | [`what-tls-really-protects/`](what-tls-really-protects/) |
 | [Where Am I? Your First Linux Command, pwd (No Experience Needed)](https://youtu.be/5yPFsSyusTU) | [`where-am-i-pwd/`](where-am-i-pwd/) |
 | Who Signs Certificates (HTTPS and Certificates, No Experience Needed) | [`who-signs-certificates/`](who-signs-certificates/) |
 | Why AI Answers Can Be Wrong and Sound Right (AI for Ops: the Safe Basics) | [`why-ai-sounds-right-when-wrong/`](why-ai-sounds-right-when-wrong/) |
